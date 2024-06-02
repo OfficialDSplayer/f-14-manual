@@ -1,5 +1,7 @@
 # Emergency Procedures
 
+> 🚧 This section is under construction
+
 <!-- would be cool to have some emergency "frame" (2-colored stripe around page) like in manual -->
 
 This section contains procedures to be followed to correct

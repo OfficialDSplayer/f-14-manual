@@ -1,5 +1,7 @@
 # Other
 
+> 🚧 This section is under construction
+
 During the entire flight, Jester will assist the pilot in all situations.
 
 He will call out bandits during a dogfight and give the pilot steering tips.
@@ -16,20 +18,25 @@ when forgetting to leave the Fuel Dump switch activated.
 Jester is able to assess and report battle damage to a certain degree and much
 more.
 
-## Startup
+## Iceman
 
-Whenever the pilot performs a cold start of the aircraft, Jester will
-automatically get his cockpit ready for flight as well.
+![Pilot](../img/pilot.png)
 
-Most notably, this includes the INS alignment. During startup, Jester will ask
-the pilot if he is ready for alignment and which alignment option to choose.
+In addition to Jester, or rather, as a subset of the Jester AI, the Heatblur DCS F-14 also has Iceman, a basic autopilot/AI. This is intended for use in single-player where a player might jump between the front and back seats to control both positions and enables a basic autopilot controllable from the back seat using the same methodology as the Jester controls from the front seat.
 
-Alignment should only be started once the pilot is sure that power will remain
-stable and the aircraft will not have to be moved until the procedure is
-finished.
+The basic functionality is that when the player switches to the RIO seat, Iceman takes control of the current heading and altitude. The, now Iceman, menu then allows the player to set heading, altitude, and speed. Heading and altitude can be set relative to a target or as absolutes not referencing an external target.
 
-> 💡 Jester is able to abort an alignment if the pilot really has to start
-> moving already. Expect degraded INS performance in this case.
+
+## Assisted Startup
+
+![Startup](../img/startup.png)
+
+For aircraft cold start, Jester can either perform his checklist like a real RIO would, or he can also help the pilot with an assisted startup in which he reads the pilot’s checklist to him while starting.
+
+To access the normal, unassisted startup, select startup, Jester will then go through his checklist. He will at times ask the pilot if he has completed certain checks or ask for specific tests; this is answered via the Jester menu using the options appearing there. For example, he will start by asking for a comms check, which is answered via the Jester menu. Note that after engine startup and EMERG GEN Master test, he will ask for what INS alignment to go for, select this via the Jester menu as well.
+
+To access the assisted startup, select assisted start on the Jester menu. Jester will now read out the checklist to the pilot and highlight the relevant indicators and switches during startup. Use the Jester menu to tell Jester when a check/step is complete.
+
 
 ## Takeoff and Landing Assistance
 
@@ -48,21 +55,4 @@ in the Phantom.
 
 Jester provides steering assistance to the pilot during AAR.
 
-In the initial phase, he will guide the pilot towards the right spot for the
-tanker to connect the boom, for example by saying
 
-> "_Move 5 feet forward._"
-
-![AAR Connected](../img/aar_connected.jpg)
-
-Once connected, he will look up and focus on the booms colored marks. Jester
-calls out whenever the pilot is drifting too much in either direction, indicated
-by the boom showing the yellow or red marks.
-
-The perfect mark in the middle is called the _donut_.
-
-![Boom Marks](../img/aar_boom_ingame.jpg)
-
-See
-[3.2.2. Air Refueling System](../systems/engines_and_fuel_systems/fuel_system.md#air-refueling-system)
-for details on how to perform AAR.

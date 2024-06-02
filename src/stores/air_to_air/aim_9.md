@@ -1,93 +1,31 @@
 # AIM-9 Sidewinder
+![AIM-9](../../img/aim-9.jpg)
+*U.S. Navy photo by Photographer’s Mate Airman Kristopher Wilson. (050112-N-5345W-066)*
 
-![aim9](../../img/aim9.jpg)
+The AIM-9 Sidewinder is a short-range air-to-air missile. It uses an infrared seeker locking on to a target's IR signature, making it capable of tracking a target both during daytime and at night.
 
-Entering service with the United States Navy in 1956, and finally accepted by
-the United States Air Force in 1964, the short range, infrared seeking AIM-9
-Sidewinder is considered by most to be the world's first truly effective air to
-air guided missile. Beginning with the AIM-9B and maintaining compatibility to
-the AIM-9M in US service, the Sidewinder provided the Phantom II with a capable
-close-in weapon system against rapidly maneuvering opponents.
+The F-14 Tomcat is capable of carrying all Navy versions of the AIM-9 Sidewinder from the AIM-9D up to the AIM-9M. The Heatblur F-14 Tomcat is currently modeled as carrying the AIM-9L and AIM-9M.
 
-Employment of the AIM-9 can be performed with or without a radar lock, and is
-initiated by selecting Master Arm to ON and selecting the Throttle Pinky Switch
-to the center position for Heat. The HEAT lamp on the Head Up Display will
-illuminate, and available AIM-9 missiles will illuminate on the Missile Status
-Panel. The Optical Sight should be selected to A/A, and the reticle will
-stabilize at the Radar Boresight Line, which is the boresight location for the
-Sidewinders on the rails.
+The F-14 is capable of carrying the AIM-9 on stations 1A & B and 8A & B. Stations 1 & 8 are the glove pylons, which can each carry two AIM-9s for a total of 4. Station 1A & 8A are dedicated to carry only the AIM-9 and are normally used when only carrying two to allow station 1B & 8B to carry other munitions.
 
-Should a radar lock be achieved, the sight will display the range bar on the
-right side as previously described, with 20,000' indicated at the top, and
-3,000' range indicated at the bottom. With a radar lock on, the radar will
-display a pair of strobes signifying Rmax and Rmin for the Sidewinder against
-the target under current launch conditions.
+## Missile Preparation
+![Missile Preparation](../../img/swcool.png)
+The cooling of the AIM-9 seeker head needs to be enabled before launch. This is done by pressing the SW COOL switch on the pilot ACM panel or by selecting the ACM mode on the same panel. This commands cooling of the missile's seeker head. The missile will immediately show ready, but full seeker head performance will take at least 60 seconds.
 
-![radar_screen_heat_missile_lock](../../img/radar_screen_heat_missile_lock.jpg)
+## Seeker Head Modes
+The AIM-9G introduced a seeker head capable of the Sidewinder expanded acquisition mode (SEAM), and all later Sidewinders carried by the F-14 are also capable of that mode. SEAM allows the missile seeker head to be uncaged to track a target within the seeker limits (40° from ADL), allowing the pilot to lead the target, improving missile performance. It also allows for the WCS on the F-14 to slave the seeker to a tracked target within 20° from ADL, allowing for off-boresight acquisition.
 
-> 💡 The AIM-9 does not receive a guidance handoff from the APQ-120 like on
-> later aircraft to direct the seeker's look angle. Instead, the ASE circle
-> presents the aim dot against the target to bring it to the RBL.
+The AIM-9 on the F-14 can still use the old boresight mode where the seeker head remains slaved to ADL (2.5° field of view), but normally SEAM is used to scan the seeker about either ADL or a tracked target. This scan is not visible to the pilot and is done to increase effective seeker head field of view. As with all Sidewinders, target detection is indicated by an aural tone. That growling tone is present while scanning but increases in intensity while the seeker is looking at an IR source.
 
-Centering the aim dot in the ASE aligns the target to the RBL, thus allowing for
-rapid acquisition by the seeker of the selected AIM-9. Once the missile's tone
-changes to signify lock, the pilot can then hold down the ARR button on the grip
-to allow for Sidewinder self-track (seeker uncage); this function allows the
-seeker to maintain acquisition of the target (noted by the shifted audio tone),
-while permitting maneuver of the aircraft to a better aspect angle or range
-solution prior to launch if the situation allows. The amount of maneuver
-available to a given Sidewinder type is based on the variant, and should be
-considered before making the selection.
+## Missile Operation
+The AIM-9 Sidewinder is selected for launch with the weapon selector on the pilot stick. The weapon selector can be used to cycle which AIM-9 is selected for launch by depressing it, indicating on the ACM panel which missile is selected by a checkerboard indication in the corresponding status window. When using the AIM-9, the HUD uses the diamond to indicate a tracked target and the pipper (crosshair) to indicate current seeker head position. If a WCS track with range is available, the HUD also displays range to target and Rmin and Rmax. The VDI, DDD, and TID display the attack guidance symbology if a WCS track is present.
 
-## Launch Sequence
+The basic missile boresight mode without SEAM (no scan) is commanded by depressing the BRSIT (boresight) switch on the pilot ACM panel while not having the ACM mode active. In this mode, the pilot puts the target at ADL and fires when the aural tone is present.
 
-![ext_weapons_launch_sequence_ir](../../img/ext_launch_seq_heat.jpg)
+If the BRSIT switch is not used or the ACM mode is active, the AIM-9 will use the SEAM and set the missile to use the double-D scan pattern. If a WCS target is present, the seeker head will scan around the radar or TCS line of sight; otherwise, the missile will scan around the ADL.
 
-Once the desired firing solution is attained, the AIM-9 is launched using the
-trigger.
+![SEAM Lock](../../img/seamlock.png)
+To enable lock-on to a target in SEAM, the pilot depresses the CAGE/SEAM pushbutton on the left throttle. This illuminates the SEAM LOCK light on the ACM panel and uncages the seeker for 4.5 seconds, allowing it to track a target present in the seeker's field of view. If no IR source is found, the missile is again caged and the SEAM LOCK light is deactivated.
 
-AIM-9 Launch Sequence:
+If lock-on is successful, the aural tone will remain and the SEAM LOCK light stays illuminated, allowing the pilot to launch the missile by pressing the stick trigger. After launch, the next AIM-9 will automatically be selected.
 
-1. Left Outboard
-2. Right Outboard
-3. Left Inboard
-4. Right Inboard
-
-## Variants
-
-The following variants of the AIM-9 family are available for this variant of the
-Phantom:
-
-| Variant   | Description                                                                                                                                                                                                          |
-| --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| B         | First operational version of the Sidewinder family, entering service in the 1950s. It utilized an infrared homing seeker for target acquisition and tracking, making it a heat-seeking missile.                      |
-| J         | Featuring enhanced guidance and performance characteristics. It retained the infrared homing seeker but had improved sensitivity and better resistance to countermeasures.                                           |
-| JULI      | Variant of the AIM-9J developed by Germany. It featured modifications to meet specific operational requirements.                                                                                                     |
-| L         | Significant upgrade with improved infrared homing capabilities, allowing for better target discrimination. It introduced all-aspect targeting, meaning it could engage targets from any angle, not just from behind. |
-| M         | Improved guidance and counter-countermeasures capabilities. It had enhanced maneuverability and improved target-tracking algorithms, making it more effective in combat situations.                                  |
-| P         | Developed for export and used by various nations. It featured improvements over earlier models in terms of reliability and seeker performance.                                                                       |
-| P-3       | Improves the P version by using a reduced-smoke motor and improving the guidance system. Base of the swedish RB-24J missile.                                                                                         |
-| P-5       | Further improves counter-countermeasures capabilities, as seen in the M version. Base of the swedish RB-24L missile.                                                                                                 |
-| Captive M | Non-functional version used for training and testing purposes.                                                                                                                                                       |
-
-Below is a basic comparative summary of each Sidewinder's performance in some
-general areas, whereas 🟩 means _good_, 🟨 _fair_ and 🟥 _poor_.
-
-| Type      | Lock-Tone | Uncage | Aspect | Maneuverability | CM Resist | Motor |
-| --------- | --------- | ------ | ------ | --------------- | --------- | ----- |
-| B         | ❌        | ❌     | Rear   | 🟥              | 🟥        | 🟥    |
-| J         | ❌        | ✅     | Rear   | 🟨              | 🟨        | 🟥    |
-| JULI      | ✅        | ✅     | All    | 🟨              | 🟩        | 🟨    |
-| L         | ✅        | ✅     | All    | 🟩              | 🟩        | 🟩    |
-| M         | ✅        | ✅     | All    | 🟩              | 🟩        | 🟩    |
-| P         | ❌        | ✅     | Rear   | 🟨              | 🟨        | 🟥    |
-| P-3       | ❌        | ✅     | Rear   | 🟨              | 🟨        | 🟨    |
-| P-5       | ✅        | ✅     | All    | 🟨              | 🟩        | 🟨    |
-| Captive M | ✅        | ✅     | All    | 🟩              | 🟩        | 🟩    |
-
-Some variants have a null-seeker. These missiles do not produce a tone when
-fully aligned with a target. This can lead to confusion, thinking the missile
-does not track while it is actually locked perfectly on the target.
-
-The AIM-9B is unable to uncage in order to dynamically track a target that is
-not on its boresight.

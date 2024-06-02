@@ -1,585 +1,92 @@
 # Flight Control System
 
-![ext_view_flight_controls](../../img/ext_f4_flight_control_surfaces.jpg)
-
-The primary flight controls of the aircraft consist of
-the [stabilator](./flight_controls.md#aileron-spoiler-control-and-stabilator-control-feel-and-trim-systems),
-[rudder](./flight_controls.md#rudder-control-system),
-[ailerons](./flight_controls.md#aileron-spoiler-control-and-stabilator-control-feel-and-trim-systems),
-and [spoilers](./flight_controls.md#aileron-spoiler-control-and-stabilator-control-feel-and-trim-systems).
-Artificial feel systems provide
-simulated aerodynamic forces to the control stick and
-rudder pedals. Secondary controls are
-[leading edge flaps/slats](./flight_controls.md#slats-flap-system),
-[trailing edge flaps](./flight_controls.md#slats-flap-system),
-and wing mounted [speed brakes](./flight_controls.md#speed-brakes).
-
-## Bobweights vs. Bellows
-
-Linkages between stick, control surfaces and interactions with the trim system,
-as well as the AFCS are a complex combination of forces that balance out each
-other.
-
-Bobweights connected to the stick increase the force required to move it
-depending on the current G-force by pushing the stick forward. For example, when
-pulling the stick and generating positive G's, the bobweights get heavier,
-making it harder to pull more and naturally leading to the stick wanting to move
-back to neutral.
-
-The bobweights are countered from the opposing direction by the bellows
-system operated by ram air pressure sensed at the bellows inlet on the vertical
-fin.
-
-![Bellows Inlet](../../img/ext_f4_anti_col_light.jpg)
-
-The bellows pull the stick aft depending on the relative airspeed.
-For example, when going hands of stick and the aircraft unintentionally departing
-nose down, airspeed increases and the bellows system pulls the stick aft, naturally
-causing the aircraft to pitch up and stabilize in level flight again.
-
-Trimming the aircraft results in changing the length of the lever arm connecting
-the bellows system with the stick, changing the effective force they can apply.
-
-> 🟡 Blockage or freezing of the bellows inlet cause the system to malfunction.
-> In this case, trim can be rendered ineffective and sudden pitch up or down
-> movements can occur, depending on how the bellows and bobweight forces balance
-> out. To prevent another sudden change in pitch once the blockage is resolved,
-> trim should be kept neutral.
-
-The two opposing forces are carefully balanced out to keep the stick in a
-neutral position during level flight at normal airspeeds. However, due to the
-dynamic nature of the system, the aircraft constantly has to be retrimmed after
-even the smallest flight condition changes. Especially under G's or when changing
-airspeed, the feel of the stick behavior changes drastically.
-
-## Control Sticks
-
-![FlightStick](../../img/pilot_stick.jpg)
-
-A control stick is provided in both cockpits, with near-uniform switchology
-between the two. A Trim Control (<num>1</num>) is found on both sticks to provide force
-reduction and minor flight path correction in the pitch and roll axis. Weapons
-are deliverable through both a Trigger (<num>3</num>)
-(for [air-to-air missiles](../../stores/air_to_air/overview.md) and the [gun](../../stores/guns.md))
-and a Bomb Release Switch (<num>2</num>). Both sticks carry
-a [Nose Wheel Steering button (<num>5</num>)](gear_ground_handling.md#nose-gear-steering) that
-doubles as a [radar](../radar/overview.md) auto-acquisition control for the radar in visual
-range combat, and sensor focus control for
-video-directed [air to ground weapons](../../stores/air_to_ground/overview.md). An
-[Emergency Quick Release lever (<num>6</num>)](gear_ground_handling.md#emergency-anti-skid-quick-release-lever)
-on each stick is available to immediately deactivate the anti-skid system, the automatic
-flight control system, stability augmentation and the aileron-rudder
-interconnect. Unique to the front cockpit control stick is the
-[Air Refueling Release Button (<num>4</num>)](../engines_and_fuel_systems/fuel_system.md#air-refueling-release-button),
-a dual-role control that performs the boom disconnect function its name implies, as well as
-a number of weapon selection functions.
-
-Also, unique to the front cockpit stick is a force transducer, to allow the pilot
-fine adjustment control of the AFCS with the autopilot functionality engaged. In the event the force
-applied to the stick exceeds the AFCS breakout limit, autopilot will be temporarily turned off.
-
-## Aileron-Spoiler Control and Stabilator Control Feel and Trim Systems
-
-The Aileron-Spoiler Control System and the Stabilator Control System both offer
-trim following; the former through a screw jack actuator, the latter using a
-servo directed by the AFCS.
-These functions cause the stick to position relative
-to the current trim and autopilot position when the crew member in control goes
-"hands off". It is therefore advisable to maneuver the stick to the same
-position, or to gently move the stick to "breakout force" prior to disengaging
-the autopilot system to reduce the chance for an abrupt return to pilot control.
-
-To confirm current state of the stabilator trim, a Stabilator Trim Position
-Indicator is provided on
-the [front cockpit left vertical panel](../../cockpit/pilot/left_sub_panel.md#stabilator-trim-indicator)
-.
-
-![StabTrimInd](../../img/pilot_stabilator_trim_indicator.jpg)
-
-## Rudder Control System
-
-![ext_rudder](../../img/ext_f4_rudder.jpg)
-
-Yaw axis control is directed by the rudder pedals found in both cockpits. To
-offset any relative skidding due to wind effect, stores imbalance, or minor
-[engine](../engines_and_fuel_systems/engines.md) output deviation,
-a [Rudder Trim Switch](../../cockpit/pilot/left_console/front_section.md#rudder-trim-switch) is
-found on
-the [engine control panel](../../cockpit/pilot/left_console/front_section.md#inboard-engine-control-panel)
-in the front cockpit. On the ground, the pedals themselves can be pressed
-independently for differential braking, and the rudder axis itself functions as
-the nose wheel steering directional control when
-the [Nose Wheel Steering button](gear_ground_handling.md#nose-gear-steering)
-on either control stick is pressed.
-
-## Aileron-Rudder Interconnect (ARI)
-
-The aileron-rudder interconnect system causes rudder
-displacement proportional to aileron displacement to
-provide coordinated turns at low airspeeds. It is engaged automatically with the
-[Slats Flap Switch](../../cockpit/pilot/left_console/wall.md#slatsflaps-control-panel)
-in the OUT AND DOWN
-position, and the airspeed below the flap blowup speed (230
-knots).
-
-The limits of
-the system are 15° of rudder displacement when the
-automatic flight control system is in the stability
-augmentation or autopilot mode, and 10° rudder
-displacement when the yaw stab aug switch is disengaged.
-
-The circuit breaker for the ARI is located right of the
-Emergency stores release.
-
-![ARIfuse](../../img/pilot_ari.jpg)
-
-> 💡 To permanently disengage the ARI, the circuit
-> breaker on the left sub panel must be pulled
-> and the Yaw STAB AUG switch must be disengaged.
-> Pulling the circuit breaker with the switch
-> still engaged will still provide 5° of ARI rudder
-> authority. When the ARI circuit breaker is
-> pulled, the anti-skid system is disabled as well.
-
-> 💡 Rudder jump will occur when the ARI system cuts
-> in or out with a lateral control stick input. This
-> will normally occur when the flaps are raised or
-> lowered during a turn.
-
-### Emergency Disconnect
-
-In the event either seat in command requires the ARI deactivated, the system can be disconnected by
-pulling
-the [Emergency Quick Release Lever](gear_ground_handling.md#emergency-anti-skid-quick-release-lever)
-on their respective control stick. When the
-switch is released, the ARI (10°) and the Yaw STAB AUG (5°)
-rudder authority is regained. Function of the ARI
-can always be overridden through the rudder pedals.
-
-## Automatic Flight Control System (AFCS) - AN/ASA-32
-
-![pilot_afcs_switches](../../img/pilot_afcs_control_panel.jpg)
-
-The automatic flight control system (AFCS) is an
-electro-hydraulic system designed to provide stable,
-accurate, and coordinated flight maneuvers without
-interfering with manual control. The automatic flight
-control system is capable of performing two modes of
-operation, **stability augmentation** and **AFCS**.
-
-> 💡 The term "AFCS" is the name of the whole system but also
-> its sub-mode in which the aircraft attitude and/or heading
-> is held and altitude hold can be activated.
-
-**Stability augmentation** improves airplane stability in pitch, roll,
-and yaw. It opposes any change of attitude but does not
-return the airplane to a given attitude or ground track.
-This mode of operation may be used while the aircraft is
-under manual control. Stability augmentation can be
-engaged individually or in any combination for pitch, roll,
-or yaw axis.
-
-The **AFCS mode** of operation maintains any
-aircraft heading and/or attitude selected within the AFCS
-limits and corrects for any deviation from the selected
-heading or attitude of the aircraft within the AFCS limits.
-The AFCS switch (<num>2</num>) can be engaged with only
-the Pitch STAB AUG switch engaged; however, to provide full
-AFCS operation, all three STAB AUG switches must be
-engaged.
-
-The AFCS system can be engaged and hold maneuvers and
-attitudes within a range of ±70° pitch, 70° in bank and 360°
-in azimuth, providing the G limits are not being exceeded.
-Rapid stabilator movements, whether pilot induced or
-not, will cause the AFCS switch to disengage.
-
-If the AFCS switch
-is engaged when the airplane is less than ± 5° from wings level,
-then the the airplane will maintain a **wings level attitude**,
-and will hold the engaged **heading**.
-When the nose gear steering button
-(on the stick grip) is pressed, heading hold
-drops out and **attitude** hold is available. Heading hold
-can be re-established by once again pressing the nose
-gear steering button. If the airplane attitude is greater
-than ± 5° from wings level when the AFCS switch is
-engaged, then the airplane will maintain the bank attitude at
-the time of engagement.
-
-The **Altitude Hold mode** of operation (<num>3</num>) holds
-any altitude selected while in the **AFCS mode**.
-
-> 💡 Altimeter fluctuations while accelerating
-> through the transonic range (0.9 to 1.0 Mach) will produce
-> transient fluctuations which, although not violent, may
-> cause the reference altitude to slip. Engaging the altitude
-> hold mode in climbs greater than 1000 feet per minute
-> may result in a reference altitude other than the engage
-> altitude.
-
-### Force Transducer
-
-The force transducer senses the physical force applied to
-the control stick. This unit comprises the visible
-portion of the control stick with the stick grip mounted on
-top of it.
-
-The force transducer contains pressure sensitive
-switches which react to longitudinal and lateral stick
-forces. A lateral stick force of approximately 1.5 pounds
-closes a force switch. When a roll force switch closes the
-roll rate gyro signal in STAB AUG and the roll rate and
-attitude gyro signals in AFCS mode are cut out so that
-pilot initiated maneuvers are not opposed while in the
-AFCS mode. The pilot maneuvers the aircraft by
-mechanical linkages until the lateral stick force is reduced
-to less than approximately 1.5 pounds. At this time the roll
-channel is returned to normal AFCS operation.
-
-A forward
-stick force of 3.75 ±0.25 pounds or an aft stick force of 2.55
-±0.25 pounds closes switches to operate certain AFCS
-components, and cause a force sensing device to send a
-signal, proportional to the applied stick force, to the servo
-amplifier and stabilator position is controlled through the
-AFCS.
-
-There is no stick force transducer in the rear cockpit. The
-AFCS and roll stab aug will oppose rear cockpit stick
-inputs. Do not fly the aircraft from the rear cockpit with
-AFCS engaged. Exercise care in transferring control
-between cockpits while rolling with roll stab aug engaged.
-
-### G-Limit Accelerometer
-
-The normal load factor interlock (G-disengage) feature of
-the AFCS is designed to inhibit the system from
-commanding excessive load factors on the airplane. The
-system reverts automatically from whatever mode is
-engaged to stability augmentation in the event that +4 or
--1 G is sensed by the G-disengage
-accelerometer switch.
-
-This switch is mounted forward on
-the radar bulkhead so that if the airplane is rotated
-rapidly into a maneuver, disengagement occurs at lower
-values of normal load factor due to the anticipation
-resulting from the forward location sensing a component
-of pitching acceleration.
-
-The G-disengage feature is
-inoperative outside the ±70° limits of the autopilot.
-
-> 🔴 WARNING: The G switch does not disengage the autopilot
-> under conditions of low airspeed or heavy gross
-> weight before the aircraft stalls. If the autopilot
-> remains engaged during a stall, the autopilot
-> provides pro-spin controls.
-
-### Emergency Quick Release Lever
-
-A spring-loaded emergency quick release lever is on each
-control stick. This lever operates in the same manner from
-both the front and the rear cockpits.
-
-Depressing the lever
-causes the AFCS and altitude hold switch to return to
-OFF. The stability augmentation mode, ARI and
-anti-skid, are disengaged as long as the lever is held
-depressed. When the lever is released, the stability
-augmentation, anti-skid, and ARI are again in operation,
-but the AFCS is no longer engaged.
-
-To permanently
-disengage the stability augmentation mode, the pitch, roll,
-and yaw STAB AUG switches must be placed off. To
-permanently disengage the ARI and anti-skid, the yaw
-STAB AUG switch must be off and the ARI circuit breaker,
-on the front cockpit left sub-panel, must be pulled.
-
-### Autopilot Disengage Indicator Light
-
-An AUTOPILOT DISENGAGE indicator light is on the
-telelight panel. After initial engagement of the AFCS
-mode, the AUTOPILOT DISENGAGE indicator light and
-the MASTER CAUTION light illuminates when the AFCS
-is disengaged.
-
-Both lights are extinguished by pressing the
-master caution reset switch. The lights remain
-extinguished until the AFCS is again engaged and
-disengaged.
-
-### Pitch Aug Off Indicator Light
-
-The PITCH AUG OFF indicator light on the telelight
-panel illuminates together with the MASTER CAUTION
-light when the Pitch STAB AUG switch is not engaged
-and the aircraft being powered.
-
-Depressing the master caution reset button extinguishes the MASTER
-CAUTION light. However, the PITCH AUG OFF light
-remains illuminated until the Pitch STAB AUG switch is engaged.
-
-### Automatic Pitch Trim
-
-An automatic pitch-trim feature is included in the AFCS
-which attempts to keep the airplane longitudinally
-trimmed to the flight conditions experienced while in
-AFCS mode.
-
-Thus, an out-of-trim condition (which would
-not be sensed while in autopilot mode) is prevented,
-ensuring against an excessive pitch transient when
-disengaging the autopilot.
-
-The automatic pitch trim
-operates at approximately 40% the speed of the normal
-trim system, resulting in a slight delay after changing
-flight conditions before the basic airplane is properly
-trimmed. During control stick steering maneuvering, the
-auto-trim is inoperative. Auto-trim operation can be
-observed on the pitch trim indicator after changing flight
-conditions in the AFCS mode.
-
-### Autopilot Pitch Trim Light
-
-The AUTOPILOT PITCH TRIM indicator light on the
-telelight panel illuminates during AFCS
-operation if the automatic pitch trim follow up is
-inoperative or lagging sufficiently behind airplane
-maneuvering to cause an out-of-trim condition in the
-basic airplane.
-
-### Normal Operation
-
-1. To engage the stability augmentation mode, place the pitch, roll, and yaw
-   STAB AUG switches to ENGAGE.
-2. Trim aircraft in the stability augmentation mode before engaging AFCS mode.
-3. To engage AFCS mode, establish an aircraft attitude within AFCS limits. Place
-   the AFCS switch to ENGAGE.
-4. When altitude hold mode is desired, place the Altitude Hold switch to ENGAGE.
-
-> 🔴 WARNING: Do not attempt to change pitch attitude of the
-> aircraft from the rear cockpit in the AFCS mode.
-> Since no force-transducer is in the rear cockpit
-> control stick, applying force will cause pitch trim
-> to run up and down depending on pressure
-> applied. If the pilot attempts to take control at
-> that point, violent transients may be
-> encountered.
-
-> 🔴 WARNING: When selecting the AFCS mode, have hand on
-> control stick to counteract any abrupt control
-> movements in the event of an AFCS malfunction.
-
-> 💡 The AFCS is disengaged when the Emergency
-> Quick Release Lever on the control stick is
-> depressed. The stability augmentation and ARI
-> are disengaged as long as the lever is held
-> depressed but returns to operation when the lever
-> is released.
-
-### Operational Precautions
-
-#### Roll Reversal
-
-There is a possibility of a condition called roll reversal occurring when
-operating the automatic flight control system in the AFCS mode. This condition
-occurs infrequently and is apparent only when attempting small changes in bank
-angle. Roll reversal is associated with a small out-of-trim condition in the
-lateral channel, and is apparent as a slow rolling of the airplane in the
-opposite direction of the stick force. If, for instance, the airplane is out of
-trim laterally to the left when the AFCS mode is engaged, roll reversal may occur
-when right stick forces are applied. A roll reversal situation may be caused by
-operating the manual lateral trim button while in the AFCS mode, followed by
-small stick forces being applied opposite to the direction of the trim. There is
-a possibility of roll reversal occurring even if the airplane has been trimmed
-prior to engaging the AFCS mode, and the manual trim button has not been touched.
-This condition is caused by changes in airplane trim accompanying changed flight
-conditions. In view of the above, the following instructions should be observed:
-
-1. Trim airplane in stability augmentation mode before engaging AFCS mode.
-2. Do not operate manual lateral trim while the AFCS mode is engaged. If roll
-reversal is encountered due to change in flight condition; disengage roll,
-retrim, then reengage.
-
-#### Pitch oscilattions
-
-When using the altitude hold mode, the aircraft may experience pitch oscillations
-in the transonic regions due to fluctuations in the air data computer airspeed
-system. The nature of these oscillations vary from stick pumping to divergent pitch
-oscillations. It is recommended that if pitch oscillations occur at transonic speeds,
-the following corrective steps be attempted:
-
-1. AFCS switch – DISENGAGE
-2. Static pressure compensator switch – OFF
-3. AFCS switch – ENGAGE
-4. Engage altitude hold mode
-
-If the oscillations persist after the above action, or if they are encountered at supersonic speeds:
-
-1. Disengage altitude hold mode.
-
-> 🔴 WARNING: Divergent pitch oscillations should not be allowed to develop.
-> If any divergent pitch activity is noted, corrective action should be taken
-> immediately.
-
-## Slats Flap System
-
-![ext_slats_and_flaps](../../img/ext_slats_and_flaps.jpg)
-
-The Slats Flap system is manually selected for takeoff and landing, then
-automatically controlled relative to AoA for best handling performance in all
-other flight regimes. Control is through
-a [three position switch](../../cockpit/pilot/left_console/wall.md#slatsflaps-control-panel) found
-outboard of the left [throttle](../../cockpit/pilot/left_console/front_section.md#throttles)
-handle in the front cockpit and driven by the aircraft hydraulic system.
-The [three switch positions](../../cockpit/pilot/left_console/wall.md#slatsflaps-control-panel) are
-Norm, Out, and Out and Down, and the resulting command can be moderated based on whether or not the
-landing gear is being deployed.
-
-![SlatsRelative](../../img/SlatsRelative.jpg)
-
-Norm is the standard in-flight position, locking the Flaps and automatically
-programming the Slat deployment as a function of AoA.
-
-Out deploys the Slats to their fully deployed position. Should the landing gear
-be deployed, both the Slats and Flaps will deploy.
-
-Out and Down fully deploys both the Slats and the Flaps. Should the landing gear
-not be down, the Wheels Light on
-the [telelight](../../cockpit/pilot/right_sub_panel.md#telelight-annunciator-panel) Panel will
-illuminate and flash.
-
-Both cockpits have
-a [Slats Flap Indicator](../../cockpit/pilot/left_sub_panel.md#slatsflaps-indicators), which read In
-and Out, along with a
-barber-pole reading when the surfaces are in transition.
-
-![SltFlpInd](../../img/pilot_slats_flaps_indicator.jpg)
-
-In the Norm position, Maneuvering Slat deployment is a function of AoA; above
-11.5 units they will extend, then retract when the aircraft is reduced below
-10.5 units. Maneuvering Slat operation includes a speed-induced blowback; slats
-will retract due to air pressure between 568 and 602 knots.
-
-![Slats Override](../../img/pilot_slats_override_switch.jpg)
-
-To the rear of the Fuel Control Panel in the front cockpit is the Slat Override Switch. Guarded,
-this switch has two positions: NORM and IN. Defaulted to NORM under the guard, switching to IN
-forces the retraction of the slats, no matter the current aircraft AoA or state of the Slats Flap
-Switch position; this action will trigger the SLATS IN warning on
-the [telelight](../../cockpit/pilot/right_sub_panel.md#telelight-annunciator-panel) Panel and
-illuminate the [Master Caution](../../cockpit/pilot/right_main_panel.md#master-caution-light).
-
-The Slats Flaps system also has an Emergency system; handles are found on the
-[Slats Flaps control panel](../../cockpit/pilot/left_console/wall.md#slatsflaps-control-panel) in
-the front cockpit, and next to the rear cockpit
-[throttle](../../cockpit/wso/left_console/center_section.md#throttles) pair. The emergency system
-uses pneumatic pressure, and does not
-require electrical power to force deployment. The emergency system can only
-function once, and can be actuated at any airspeed; however, above 230 knots,
-the Flaps will retract based on air pressure, and the normal Slat retraction
-speeds also apply.
-
-## Speed Brakes
-
-![ext_speed_brakes_out](../../img/ext_f4_speed_brakes.jpg)
-
-Underneath the aircraft and close to the rear [Sparrow](../../stores/air_to_air/aim_7.md) recesses
-are the [speed
-brakes](../..), installed on the wings. The speed brakes are driven by the aircraft's
-hydraulic system and actuated by
-a [three position switch](../../cockpit/pilot/left_console/front_section.md#throttles) found on the
-inboard throttle in both cockpits.
-Either switch will actuate the brakes. The positions
-are Out, Stop, and In; the Out position is momentary and reverts back to Stop when released.
-
-![pilot_speed_brake](../../img/pilot_speed_brake.jpg)
-
-Brake actuation illuminates the Speed Brake Out Indicator Light found on the
-[telelight Panel](../../cockpit/pilot/right_sub_panel.md#telelight-annunciator-panel). Brake
-deployment and illumination of the Indicator does not
-trigger the [Master Caution](../../cockpit/pilot/right_main_panel.md#master-caution-light).
-
-![SpeedBrakeLight](../../img/pilot_speedbrake_out.jpg)
-
-## Angle of Attack System
-
-![ext_aoa_diagram](../../img/ext_aoa_f4.jpg)
-
-To precisely monitor and control aircraft flight performance, the Angle of
-Attack System (AoA) provides visual and audio confirmation of current
-parameters. Included in the system are the Angle of Attack Indicators found in
-both cockpits, the illuminated Angle of Attack Indexers, as well as the AoA
-Aural Tone System.
-
-The angle of attack is typically measured in degrees (°). It represents the deviation from the
-alignment of the chord line of the airplane with the oncoming air or relative wind.
-
-### Indicators
-
-![AoAInd](../../img/pilot_angle_of_attack_indicator.jpg)
-
-The Angle of Attack Indicator dials register AoA values from 0 to 30 units, with
-indications for weight-relative optimum altitude cruise (7.9 units), approach
-(19.2 units), and stall (30 units).
-
-> 💡 The AoA Indexers are only lit with the right gear down.
-
-AoA units do not directly translate to degrees, one unit of AoA is
-the same as roughly 0.95 degrees and the measured AoA is also offset
-by about 4 degrees. This way, the indicator displays a more natural and useful
-value to the crew.
-
-> 💡 Extension of the landing gear and thus the nose
-> gear door changes the airflow around the probe causing to indicate higher
-> angles by 1 unit. The approach airspeeds account for that. Therefore, performing
-> an approach with the gear retracted, will cause the indicators to show
-> approximately 1 unit low, and the aircraft will be roughly 5 knots fast for an
-> on-speed approach.
-
-### Indexers
-
-![AoA](../../img/pilot_overhead_aoa_indexer.jpg)
-
-The AoA Indexers, found on the windshield frame of the front cockpit, and above
-the instrument panel in the rear, display color coded and directional symbology
-for the on-speed approach value of 19.2 units once the landing gear have been
-lowered.
-
-## Aural Tone System
-
-![manual_aural_tone_chart_slats_in](../../img/AoA_aural_tone_chart_slats_in_or_gear_down.jpg)
-![manual_aural_tone_chart_slats_out](../../img/AoA_aural_tone_chart_slats_out_and_landing_gear_up.jpg)
-
-The Aural Tone System provides audible feedback in maneuvering flight and during
-landing configuration. Beginning above 15 units AoA with gear down, and 21 units
-AoA with the gear up and slats in, a pulse will be heard by both crew-members.
-
-The rate of the pulse can vary from 1.5 to 20 pulses per second, with increasing
-frequency based on higher AoA values.
-
-This tone can be lowered in volume below 20.3 units AoA gear down/25 units gear
-up with controls in each cockpit; exceeding these values will cause the system
-to override the volume limits and deliver the warning pulses at a minimum
-volume to ensure they are audible regardless of volume setting.
-
-> 💡 The respective knobs are labelled STALL WARNING and can be found on the right
-> side in either cockpit. They must not to be confused with the AURAL TONE CONTROL
-> knobs, which control weapon related tones.
-
-Due to limited forward visibility, the tones are a crucial aid during landing.
-If a low pitch tone playing at a pulse is heard, the aircraft is too fast.
-If a high pitch tone playing at a pulse is heard, the aircraft is too slow.
-For the proper on-speed configuration, a steady tone at a medium pitch is played.
-
-## Stall Warning Vibrator
-
-The left front cockpit pedal includes a Stall Warning Vibrator, which is
-activated over 22.3 units Angle of Attack. This physical (and in DCS audible)
-indication is given to make the pilot aware of the potential of an impending
-stall and provide enough time to reduce AoA and prevent the loss of control of
-the aircraft. Reducing AoA below the threshold will deactivate the warning.
+The flight control system on the F-14 Tomcat is driven by the two main hydraulic circuits, powered by pumps connected to each engine.
+
+For longitudinal (pitch) control both tail stabilizers are deflected in unison, acting in the same way as traditional elevators.
+
+Lateral (roll) control is produced by both the tail stabilizers and the spoilers working in unison. To produce roll the stabilizers are deflected opposite each other to act as ailerons in combination with the spoilers on the side to which roll is commanded.
+
+The rudders on the F-14 is a standard rudder configuration albeit in a two tail, two rudder configuration.
+
+Control surface position is indicated on the Control Surface Position Indicator and can also be used to check trim position with controls at neutral.
+
+> **Note:** Above 15 units AOA, the rudders should be used for lateral (roll) control due to the different airflow along the aircraft control surfaces.
+
+## Trim
+
+Longitudinal and lateral trim is accomplished via the trim hat on the Control Stick. This changes the stick neutral position, thus trimming the aircraft. Rudder trim is accomplished via the RUDDER TRIM switch on the Inlet Ramps/Throttle Control Panel, changing the neutral rudder position.
+
+The Mach Trim and ITS (Integrated Trim System) automatically trims to compensate for changes in longitudinal trim. The Mach Trim system compensates for transonic and supersonic trim changes and the ITS for trim changes due to flap and speedbrake position changes.
+
+## AFCS Automatic Flight Control System
+
+The AFCS or Automatic Flight Control System provides additional aircraft stability (SAS or Stability Augmentation System) via automatic control surface commands generated from AFCS sensors. The AFCS is controlled by switches on the AFCS Control Panel, and pitch, roll, and yaw can each be set individually.
+
+- **Pitch and roll switches:** Spring-loaded to off but normally held to on by solenoids, meaning that if the system is turned off or inoperable, the switches return to off. The yaw switch is purely mechanical.
+- **Roll SAS:** Should not be used for situations involving flight at AOA above 15 units and should therefore be set to off for combat maneuvers.
+- **Autopilot emergency disengage paddle:** On the control stick, if held down, sets the pitch and roll channels to off.
+
+## Autopilot
+
+Apart from stability augmentation, the AFCS is also used to provide autopilot functionality. To use the autopilot, all three stabilization channels must be enabled.
+
+### Autopilot Modes
+
+The controls for the autopilot system are situated on the AFCS Control Panel. Available modes include:
+
+- **Attitude hold:** Set the autopilot ENGAGE switch to on to maintain current aircraft attitude. Limited to within 30° pitch and 60° roll angles. The current attitude can be changed with the control stick and will be held when the stick is released.
+- **Heading hold:** Set the HDG switch to HDG. Maneuver the aircraft to the desired heading with a bank angle of less than 5° to set the heading.
+- **Ground track mode:** Set the HDG switch to GT, wait for the A/P REF warning light on the left side of the Vertical Display Indicator (VDI) to illuminate, and then press the nosewheel steering button on the control stick. The A/P REF warning light will turn off, and the ground track mode will be enabled.
+- **Altitude hold mode:** Set via the ALT switch. The A/P REF warning light will illuminate until the nosewheel steering button is depressed, enabling the mode.
+- **Data Link Vector - Precision Course Direction mode:** Allows a Link 4 controller to remotely control the aircraft. (Not modeled in DCS)
+- **ACL or Automatic Carrier Landing mode:** Used for automatic carrier landings in conjunction with the Link 4 data link and the onboard radar beacon. Set the VEC/PCD switch to ACL, and the A/P REF warning light will illuminate. When intercepting the ACL glideslope and with the ACL READY and A/P CPLR warning lights illuminated on the VDI, depress the nosewheel steering button on the control stick to engage the ACL.
+
+The ACL can be used in conjunction with the APC (see Throttle Controls) for a fully automatic landing. The ACL can be disengaged via the PLM button on the right throttle and the APC via the CAGE/SEAM button on the left throttle.
+
+All autopilot modes can be overridden by enough force on the control stick or by depression of the autopilot emergency disengagement paddle, automatically resetting all autopilot switches to off.
+
+## Spoilers
+
+The spoilers located on the upper surfaces of the wings are used to control roll as detailed above under Flight Control System, for braking on the ground as part of the Antiskid system and as a part of the DLC system (see next header).
+
+The spoilers are only used forwards of 62° wing-sweep as further aft these conflict with the fuselage.
+
+In case of a spoiler malfunction the spoiler symmetry protection logic disables all of the spoilers in the same section as the failed spoiler, either inboard or outboard spoilers. If this occurs the SPOILERS caution light on the Caution - Advisory Indicator illuminates.
+
+To override this the switch corresponding to the relevant section on the Spoiler Failure Override can be set to override by lifting the guard and setting the switch to ORIDE and then depressing the MASTER RESET button on the Fuel Management Panel.
+
+Spoiler position can be seen on the Control Surface Position Indicator.
+
+## DLC Direct Lift Control
+
+The DLC or Direct Lift Control is used to control vertical glideslope position without pitch control inputs or engine throttle commands.
+
+- **Engagement:** Engage the DLC by depressing the DLC switch on the control stick with flaps down and throttles less than MIL. This causes the inboard spoilers to extend to half and enables the DLC & maneuver flap command thumbwheel on the control stick to control them.
+- **Control:** Rotation of the thumbwheel forwards extends the spoilers, decreasing lift and adjusting glideslope position downward. Rotation of the thumbwheel aft retracts the spoilers, increasing lift and adjusting glideslope position upward.
+- **Disengagement:** Another depression of the DLC switch disengages the system.
+
+## Flaps and Slats
+
+The flaps and slats on the F-14 Tomcat can be used in two modes.
+
+- **Normal flap and slat extension:** Controlled using the FLAP handle on the Throttle Quadrant. The flaps can be set to anywhere between retracted and fully extended where the flaps will extend to 35° and the slats to 17°. The auxiliary flaps, the innermost section, only have two positions, retracted and extended. They will extend fully when the FLAP handle is at more than 5° extension.
+  - **Faulty retraction:** If a fault prevents retraction, move the FLAP handle to the UP position and then outboard and up to the EMER UP position to override faulty interlocks.
+- **Maneuver flap system:** The CADC uses the flaps and slats automatically to improve aircraft performance. In this mode, the flaps extend to 10° maximum and the slats to 7° maximum, and the innermost flap section is disabled.
+  - **Manual control:** The maneuver flap system can be manually controlled using the DLC & maneuver flap command thumbwheel on the control stick. Forward thumbwheel rotation retracts the flaps and slats, and aft thumbwheel rotation extends them.
+
+When sweeping the wings, the flaps are limited by the wing-sweep position. Aft of 21° sweep, the auxiliary (inboard flaps) are disabled up. Aft of 50°, all flaps are disabled up. The slats are not inhibited by wing-sweep.
+
+Position of the flaps and slats are indicated on the Wheels-Flaps Position Indicator.
+
+- **FLAP light:** The FLAP light on the pilot Caution - Advisory Indicator indicates a malfunction in the flap system with flaps at non-symmetrical positions.
+- **REDUCE SPEED warning light:** The REDUCE SPEED warning light on the left side of the Vertical Display Indicator (VDI) indicates flaps not retracted above 225 knots indicated airspeed.
+
+## Speedbrakes
+
+The speedbrakes on the F-14 Tomcat consist of three sections on the tail located between the engines and are powered by the combined hydraulic system.
+
+- **Control:** The speedbrake controls are located on the right Throttle and can be set to the desired position depending on how long the switch is held to the extend position. Retraction always fully retracts the speedbrakes.
+- **Protection:** The speedbrakes will start retracting above 400 knots and will continue to do so with increasing airspeed. Additionally, selection of MIL power or above automatically retracts them.
+- **Fuel dump:** As the speedbrakes disturb airflow around the tail, the fuel dump is disabled with speedbrake extension to prevent the fuel from hitting the aircraft.
+
+Position of the speedbrakes can be seen on the Wheels-Flaps Position Indicator.

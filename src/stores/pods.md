@@ -1,32 +1,18 @@
+
 # Pods
 
-## SUU-23/A Gun Pod
+#### TACTS Pods
+The TACTS pod is an analysis pod used during training missions, carried on LAU-7 rails instead of AIM-9s, normally on station 1A and 8A. They are normally carried as a pair of two, one on each side.
 
-![SUU Pods](../img/suupods.jpg)
+**Note:** In DCS, their functionality is purely cosmetic.
 
-External gun pods holding 1200 rounds of ammunition, firing at a rate of 6000
-rounds per minute. See the [gun section](guns.md#external-cannon-pods-suu-16a-and-suu-23a)
-for more.
+#### LANTIRN
+![LANTIRN](images/lantirn.jpg)
+U.S. Navy photo by Photographers Mate Airman Jason Frost. (030122-N-9403F-002)
 
-## AN/AVQ-23 Pave Spike
+The LANTIRN was adapted for use on the F-14 Tomcats during the 1990s as the F-14’s role started to gravitate towards including the precision strike role.
 
-![pave_spike_pod](../img/ext_f4_pavespike.jpg)
+The version carried on the Heatblur DCS F-14B Tomcat represents the earliest integrations of the LANTIRN, the pod being carried only on station 8B and hardwired to the control panel in the RIO cockpit and to the video input on the TID/VDI.
 
-The AN/AVQ-23 Pave Spike targeting pod, capable of spotting and tracking targets
-during daylight-conditions and using a laser to guide weapons on target. See the
-[systems section](../systems/weapon_systems/pave_spike/overview.md) for more.
+For more information regarding the use of the LANTIRN pod, see the section about it under the General Design and Systems Overview chapter.
 
-## ALQ-131 ECM Pod
-
-![ext_alq_131_ecm_pod](../img/jammer_131.jpg)
-
-Pod for electronic countermeasures, such as jamming radars and radar
-guided missiles. See the
-[ECM section](../systems/defensive_systems/ecm.md) for more.
-
-## ALE-40 Dispenser
-
-![cm_dispenser](../img/cm_dispenser.jpg)
-
-Countermeasure dispensers holding chaff and flare. See the
-[countermeasures section](../systems/defensive_systems/countermeasures.md) for more.

@@ -1,86 +1,27 @@
-# Electronic Countermeasures
+# Electronic Countermeasures - AN/ALQ-100 & 126 DECM (Defensive Electronic CounterMeasures)
 
-*"It's got ECM, it's got ECCM, IBM,
-folk, we'll give you M&Ms"*
+The AN/ALQ-100 and 126 jammers are designed to detect radar threats, analyze them, select the optimum countermeasure technique available and apply it. Available techniques for jamming are, among others, mainlobe blanking, inverse con-scan, range-gate pull-off, and swept square modes.
 
-The Phantom can be equipped with ECM pods capable of jamming radar signals to
-protect it from getting tracked by other aircraft or radar guided missiles.
+In real life, these two systems differ greatly, with the AN/ALR-126 being by far the most effective system. In DCS, both are modeled as simple noise jammers due to engine limitations but controlled by the DECM logic as to when it’s on or off and thus work the same.
 
-During its service, it saw a number of pods with different capabilities.
+## DECM Controls and Indicators
 
-Early pods such as the AN/ALQ-71 or AN/ALQ-87 have been used effectively during
-the Vietnam war. During mid 1970s, mostly AN/ALQ-119 and AN/ALQ-131 have been in
-service.
+![Control Panel](../../img/control2.png)
 
-The Phantom supports ECM pods on the two inboard pylons (stations 4 and 6) and
-the inner wing pylons (stations 2 and 8). However, the ECM signals are connected
-in a chain on each side respectively, only allowing control of one jammer pod
-per side. Additionally, many pods have restrictions only allowing them to be
-loaded on some specific pylons. For example, AN/ALQ-119 and AN/ALQ-131 may not
-be equipped on the right inboard pylon (station 6).
+The controls for the DECM are all located on the right horizontal panel in the RIO pit, as shown in the image above. In addition, there are two indication lights co-located with the RWR threat indicators on the right side of the TID.
 
-> 💡 Due to engine limitations, we can not influence the effectiveness
-> of the Phantoms jammers.
-> Equipping multiple pods does not increase their strength or coverage.
+The two indication lights on the threat advisory are **RCV (receive)** and **XMIT (transmit)**. **RCV** illuminates when the system detects and analyzes a threat, while the **XMIT** illuminates when it’s actively jamming a threat.
 
-## Controls
+The control panel itself contains a **STANDBY** indicator light, a mode selector knob, and an **AUDIO** volume knob.
 
-![ecm](../../img/wso_ecm_control_panel.jpg)
+- The **STANDBY** light indicates that system warmup is not yet completed and turns off when completed. At other times, illumination of this indicator indicates the presence of a fault in the system.
+- The **AUDIO (volume)** knob controls the audio volume of the RIO sound from the system. The pilot has no access to this audio. The audio itself is generated from the PRF of received threats with PRF frequency being converted to audio frequency.
+- The mode selector knob controls power and operational mode of the system:
+  - **OFF** turns off power to the system.
+  - **STBY** begins pre-warming of the system, taking around 5 minutes.
+  - **TEST - HOLD 3 SEC** is used to prepare the system for BIT. After 3 seconds in this mode, turn the knob to TEST - ACT.
+  - **TEST - ACT** starts the BIT in the system. The BIT takes approximately 30 seconds, and the **RCV** light will be illuminated the whole time while the **XMIT** light will flash twice. If the **STANDBY** light illuminates, it indicates that a no-go condition exists in the system.
+  - **REC** enables the system in receive-only mode, enabling analysis of threats and also the threat audio.
+  - **RPT** enables full system functionality; in addition to **REC**, it also tries to jam threats according to the selected method.
 
-The electronic counter-measurement systems are all controlled by
-the WSO via controls on the right sub-panel.
-
-The controls are duplicated for any pod carried on the left stations (<num>4</num> or <num>2</num>)
-and for the right stations (<num>6</num> and <num>8</num>) respectively.
-
-Interpretation of the modes, techniques and exact operation of the lights (<num>3</num>)
-depend on the loaded jammer model.
-
-Generally, the jammers differentiate between two modes or techniques that can be used.
-Both of which usually have a warmup phase indicated by the Standby Lights on the panel.
-
-The knob (<num>1</num> and <num>4</num>) can be used to place either technique in Standby or, once ready,
-activate transmission (XMIT 1, XMIT 2, BOTH).
-
-Some jammer models can also detect that they are actively jamming an enemy radar,
-indicated by the AI light.
-
-> 🔴 WARNING: To prevent exposing personnel to radiation, the mode knob must not
-> be placed in XMIT while on ground.
-
-### Reset Button and Lamp
-
-![ecm](../../img/wso_ecm_reset_button.jpg)
-
-The reset lamp (<num>3</num> lowest red one), if lit, indicates a fault in the jammer system.
-Flashing indicates an overheating condition, in which case the pod
-should be turned off to prevent damage.
-
-In case of a fault, the reset button (<num>2</num>) can be pressed to reset the
-jammer system (similar to turning it OFF and back ON), in which case it will
-run through the warmup period again. If the fault could be cleared, the light will go off.
-
-## AN/ALQ-131
-
-![AN/ALQ-131](../../img/f4_ext_ecm_pod.jpg)
-
-In service between 1970 and 1990; may not be equipped on the right inboard station 6.
-
-Technique 1 and 2 are identical and require a warmup period of around 3 minutes
-before being activated.
-
-> 💡 The warmup logic is hardwired - flipping the pod off and on, or having a
-> short loss of power, will result in the full warmup period being required again before use.
-
-Standby lamps illuminate to indicate that warmup phase has finished and the
-technique is ready to be activated.
-
-The pod can overheat, in which case the fault lamp will illuminate.
-In this case, make sure to set the mode to Standby immediately and give it some time to
-cool down first. Ignoring the lamp will cause parts of the pod to melt, damaging
-it irreparably.
-
-> 🟡 CAUTION: As a rule-of-thumb, do not transmit
-> for longer than 20 minutes without allowing for cooling between uses.
-> Limit continued slow and low level flight while operating the jammer to 30 minutes.
-> For extreme outside temperatures, adjust the limits accordingly.
+> **Note:** In DCS, jamming is always done with noise jamming, turning on as a threat is detected.

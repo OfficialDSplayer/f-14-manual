@@ -1,254 +1,116 @@
-# Engines
+## Engines and Throttle Controls
 
-![real_life_engine_disassembled](../../img/real_life_engine_dis.jpg)
-*Korean specialists and Air Force maintenance technicians remove
-an engine from an F-4 Phantom II aircraft at the F-4 maintenance depot*
+The F-14A is powered by two Pratt & Whitney TF30-P-414A while the F-14B is powered by two General Electrics F110-GE-400, both of which are afterburning turbofan engines.
 
-The F-4E Phantom is powered by two J79-GE-17 engines built by General Electric,
-with a rated static sea-level power delivery of 11,870 pounds of thrust in Mil,
-and 17,900 pounds in afterburner. The engines have provision for both assisted
-pneumatic start at fields with an available cart, or via a propellant cartridge
-to initiate spin-up. Similarly, the engines can utilize the aircraft's internal
-battery for initial power, or connection with an external power cart.
+To provide the engines with an even subsonic airflow the F-14 has the AICS or Air Inlet Control System. This system controls the variable geometry intakes by moving the variable ramps mounted in them to slow the airflow. This is accomplished using various sensor inputs run through a calculation using set schedules which decides the positions of the ramps.
 
-> 💡 When the engines are off they make a rattling noise as the respective blades rattle in their
-> holders. This is called windmilling.
+In addition, the TF30 uses two systems to improve reliable operation, the Mid Compression Bypass System (MCB) and the Mach Lever.
 
-## Fuel Flow Indicators
+The MCB helps mitigate high angle of attack airflow onto the compressor fans to reduce the risk of an engine stall. This system vents air from the compressor section to bypass duct to stabilize the airflow for later compressor stages. Normally this system uses angle of attack and Mach number sensor data to activate, but with the landing gear handle in the down position this it is only activated with zone 5 afterburner. Additionally the WCS commands the MCB to activate with extension of the refuelling probe as well as when launching AIM-7 or AIM-9 missiles, air to ground rockets or firing the M61 Vulcan gun.
 
-![FFI](../../img/pilot_fuel_flow.jpg)
+The Mach Lever also mitigates the risk of an engine stall by controlling min and max rpm allowed as a function of Mach number. In addition it also increases the minimum rpm in high angle of attack regimes while subsonic.
 
-Each engine has a fuel flow indicator found in the front cockpit instrument.
+The two F110s in F-14B, on the other hand, are controlled by the AFTC (Augmenter Fan Temperature Control unit). The AFTC is an early engine control computer akin to an early version of a FADEC (Full Authority Digital Engine Control) used on newer turbine engines. This system controls both the engine itself as well as the variable exhaust nozzles controlling the engine exhaust gases and removes the need for the MCB and Mach Lever for the F110. The lack of such a system in the F-14A controlling its TF30s is one of the reasons for them being deemed less reliable than the F110s.
 
-The indicators read in thousands
-of pounds per hour, from 0 to 12. The indicators provide flow rate up to Mil power; when afterburner
-is engaged, a separate fuel delivery system is used to provide fuel directly to the
-afterburner stage, and the flow rate is approximately 4 times the value shown. The engine
-speed is also controlled by the fuel flow, so a change in fuel flow can be directly observed if the
-throttles are moved.
+In case of a failure in the AFTC the MEC (Main engine control) is capable of assuming control of the engines to provide a fall-back, mechanical control. The normal mode, AFTC, is the primary mode (PRI) and called as such while the fall-back MEC is the secondary (SEC) mode. The selection of primary or secondary is automatic in case of a failure in the AFTC but can also be manually selected. Of note is that in secondary mode the engine nozzles are fully closed and disabled in addition to the afterburners being disabled with a corresponding loss of engine performance.
 
-Fuel Flow should not exceed 1200 pph at lightoff and 800 to 1500 pph at idle operations. Fuel
-consumption for Engine start is approximately 65 pounds per Engine.
+In addition both engines also drive separate fuel, hydraulic and electric generators to create redundancy.
 
-## Oil System
+**Note:**
+The main difference between the TF30 and F110 engines (apart from lesser thrust in the TF30s) is that the TF30s are more sensitive to the quality of the airflow entering the compressor face. In general it is wise to avoid anything less than military power or afterburner while in high angle of attack maneuvers as well as avoiding large rudder inputs or asymmetric engine throttle settings. That said, the TF30s in the HB F-14A module have been extensively tuned using available data and SME expertise, resulting in an accurate modelling of an engine undeserving of its bad reputation. One “advantage” of the TF30’s mechanical fuel control is its high speed thrust, resulting in higher top speeds than the F110 can achieve. If flown within normal parameters, the TF30 engines behave well if a tad underpowered compared to the F110s.
 
-![manual_engine_oil_system](../../img/manual_engine_oil_system.jpg)
+## Throttle Controls
 
-Each engine is equipped with a completely self-contained, dry sump, full pressure oil system. The
-oil supply to the lubrication system is interrupted during negative G-flight due to the inability of
-the scavenge pumps to recover oil from the sumps and gear boxes. The Engine Oil system is used for
-lubrication, variable nozzle positioning and constant speed drive unit operation. The standpipes
-which supply the three systems utilizing engine oil are in the reservoir such that the pipe for the
-constant speed drive unit is the highest, the one for the nozzle control is the next highest, and
-the lubricating system pipe is the lowest. This arrangement is to prevent a critical system failure
-if one of the circuits leak. If a leak in the constant speed drive unit would occur it will probably
-cause a failure of that system only, while a leak in the nozzle control system may cause failure of
-that system and the constant speed drive unit. Oil is also supplied directly from the reservoir to
-the constant speed drive unit, where it is used as both the control and final drive medium for
-controlling generator speed. The lubrication element of the oil pump supplies oil to cool and
-lubricate bearings, gears and other rubbing or moving parts in the engine. Lubricating oil is also
-circulated through the engine-driven generator for cooling purposes.
+![throttles](../../img/throttles-schem1.png)
 
-### Oil Pressure Indicators
+The throttles in the F-14 have detents preventing unintentional engine start and shutdown and unintentional selection of afterburner. In addition the throttles also controls several different systems depending on throttle position as shown in the diagram above. The most critical of these being the fuel cutoff and ignition systems in the respective engines.
 
-![OilPress](../../img/pilot_engine_oil.jpg)
+For throttle operations there are three modes:
 
-Oil pressure indicators are on the front cockpit pedestal panel, and calibrated from 0 to 100 PSI.
-Important values are:
+- **Manual Mode:** A mechanical mode in which the engines are controlled by mechanical linkages directly from the throttles to the engines. The manual mode is designed as a backup mode and may be inexact because of the mechanical nature of the controls.
+- **Boost Mode:** The normal mode of operation in which electrical paths control actuators moving the same engine controls as the mechanical linkages but more exactly and with lesser force required.
+- **Approach Power Compensator Mode (Auto Throttle Mode):** A system which allows for automatic throttle control for optimal angle-of-attack during approaches.
 
-* 12 psi - Minimum at idle RPM
-* 30-60 psi - In-flight military
-* 35 psi - Static minimum at military thrust
-* 60 psi - Maximum
+The controls for the throttle mode are located on the inlet ramps/throttle control panel to the side of the main throttles and allows for selection of all three modes. The auto throttle mode is solenoid held and will revert to boost mode if the criteria for automatic controls are not met.
 
-## Variable Duct Ramp
+To allow selection of auto mode the throttles need to be between 75 to 90% rpm, the gear handle needs to be down and with no weight on the wheels. If these criteria are no longer met, the throttles are manually overridden with force or the Cage/SEAM button on the left throttle is depressed the solenoid releases the switch and it reverts to boost.
 
-Optimization of air to the engines is performed by a Variable Duct Ramp system
-directed by the Automatic Duct Control (ADC); this optimization uses a pair of variable ramps to
-decelerate incoming air to subsonic for best engine performance. In the event
-limits are exceeded for inlet temperature, the Duct Temperature High Indicator
-Light (DUCT TEMP HI) on the telelight panel will illuminate. Permitting the issue to continue can
-cause permanent engine damage.
+For additional autothrottle tune the gain of the system can be set on the inlet ramps/throttle control panel. The settings are hot, normal or cold with hot increasing the throttle gain (and effective thrust) and cold decreasing it. These settings correspond to cold or hot external temperatures but should be set according to observed throttle control.
 
-## Starting System
+The RATS or reduced arrestment thrust system is a system limiting engine thrust after touchdown to limit it to levels appropriate for carrier environments. The system is enabled by weight on either main landing gear and is disabled by selection of afterburner on the throttles.
 
-### Pneumatic Mode Starting
+Finally, and implemented only for the F110-GE-400, is the asymmetric limiter, preventing asymmetric afterburner engagement if only one afterburner lights by keeping that afterburner at minimum afterburner thrust until the other afterburner also lights.
 
-![ext_cart](../../img/ext_ground_cart.jpg)
+## Engine and Throttle Control Switches and Indicators
 
-The pneumatic mode is the primary starting mode for all
-normal and routine operations.
-In this mode the Phantom utilizes an auxiliary start cart that
-turns the starter turbine, cranking the engine.
+![inlet](../../img/inlet1.png)
 
-The cart is operated by the crew chief, see the
-[Crew Chief chapter](../../crew_chief/overview.md)
-for more information about how to interact and request air supply.
+The inlet ramps/throttle control panel contains most other engine related controls.
 
-### Cartridge Mode Starting
+1. **THROTTLE MODE switch:** Sets throttle mode to AUTO, BOOST or MAN modes respectively, with auto being spring-loaded back to boost but held in place electrically as mentioned above.
+2. **THROTTLE TEMP switch:** Controls the gain of the automatic throttle system also described above.
+3. **INLET RAMPS switches:** Enable (AUTO) or disable, stow (STOW) the variable intake ramps.
+4. **Engine crank switch:** Used to crank the engines to 20% rpm allowing for engine start by moving the respective throttle to idle from cut-off. The air to start the engine is sourced from an external air supply if connected or the other engine if no external source exists. At 50% rpm the crank switch automatically returns to off/center position. If this does not occur it should be manually set to off to prevent damage to the air turbine starter.
+5. **BACK UP IGNITION switch:** Enables the backup ignition system in case of a failure in the main ignition circuits that are normally enabled by moving the throttles out of the cut-off position.
 
-![f_4_cartridge_start](../../img/f_4_cartridge_start.jpg)
+![asym](../../img/asym1.png)
 
-Cartridge mode is considered an alternate method of
-starting supplied for operational and emergency needs. A propellant
-charge is used to turn the starter turbine, which in turn cranks the engine
-to initiate startup. Cartridge ignition is controlled by the engine start switch
-providing the respective engine master switch is on.
+**Note:** F-14B only.
 
-> 💡 To avoid possible irritation caused by cartridge exhaust smoke/gases,
-> it may be advisable to close canopies and select 100% oxygen during start cycle.
+1. **ASYM LIMITER switch:** On the ASYM limiter/engine mode select panel enables or disables the asymmetric afterburner thrust limiter. Default position is ON and the switch has a guard cover keeping it in that position.
+2. **ENG (engine) MODE SELECT switches:** Setting the left (L ENG) and right (R ENG) to PRI, primary or SEC, secondary modes respectively.
 
-Cartridges can be installed by the crew chief, see the
-[Crew Chief chapter](../../crew_chief/overview.md)
-for how to interact and request cartridges installation.
+![mcb](../../img/mcb1.png)
 
-> 🔴 WARNING: Cartridges are explosive and, unless fired, must not be
-> forgotten to be removed.
-> Under no circumstances will the aircraft be flown
-> with unfired cartridges in the starter.
+**Note:** F-14A only.
 
-### Start Switch
+The MCB Test Panel, located in the RIO pit on the right horizontal panel, is used to test if the MCB system functions. The TEST switch set to the TEST position activates the test circuit which lights the two test lights for the left and right engine respectively if their MCB circuits function.
 
-![StartSwitch](../../img/pilot_engine_start_switch.jpg)
+![externalenvironment](../../img/externalenvironment1.png)
 
-Used only for cartridge start, selecting L or R ignites the cartridge installed for
-the respective engine.
+The ENG/PROBE ANTI-ICE switch on the external environmental control panel enables the engine anti-ice and intake ramp anti-ice mode in addition to the various probe heaters. The ORIDE position enables the system, the AUTO position enables the system if icing is detected and the OFF position disable it.
 
-### Ignition System
+## Engine Instrument Group (EIG), Related Indicators and Caution Lights
 
-![IgnitionButtons](../../img/pilot_ignition_button.jpg)
+![instrument-group](../../img/instrument-group1.png)
 
-The -17E/G engine is equipped with one 28 volt, low energy ignition unit and one 28 volt high energy
-unit that improves ground starts in cold weather and air starts using alternate fuel. The main
-ignition system produces an electrical arc which ignites the atomized fuel-air mixture in the fourth
-and fifth combustion chambers. The remaining eight combustion chambers are ignited through the
-crossfire tubes. Pressing the ignition button causes the spark plugs to discharge, igniting the
-fuel-air mixture as the throttle is moved from OFF to IDLE during engine start. The spark plugs only
-fire while the spring-loaded ignition button is held.
+The ENGINE INSTRUMENT GROUP displays engine RPM, TIT (Turbine Inlet Temperature, F-14A) or EGT (Exhaust Gas Temperature, F14B) and FF (fuel flow) to the pilot to allow for engine monitoring.
 
-### Afterburner Ingition System
+**Note:** Pictured above are the TF30 engine indicators, F110 EIG coming soon.
 
-The afterburner ignition system consists of the torch igniter, a spark plug and an afterburner
-ignition switch. When the throttle is moved into the afterburner detent, the afterburner ignition
-switch closes, and the spark plug supplies a continuous arc. Ignition and torch igniter fuel flow
-are maintained until the throttle is removed from the afterburner detent.
+![exhaust](../../img/exhaust1.png)
 
-### Engine Anti-Icing System
+The exhaust nozzle position indicators display respective engine’s current engine exhaust nozzle position, with zero being fully closed and full clockwise rotation being fully open. The F-14A indicates 0 to 6 units while the F-14B indicates 0 to 100 percent open (tens indicated on gauge).
 
-![EngineDeIcing](../../img/pilot_anti_ice_switch.jpg)
+![oil](../../img/oil1.png)
 
-Using
-the Anti-Icing Switch
-set to DE-ICE, bleed air from stage 17 is distributed to ports installed in the compressor face area
-of the engines. This system does not perform de-icing functions, but is to be activated prior to ice
-formation. As high Mach speeds provide enough friction heat to the air stream to deny icing in the
-compressor stage, usage of the Anti-Icing System is unnecessary and can cause engine damage.
+The oil pressure indicators display respective engine oil pressure allowing the pilot to check that engine oil pressure is at acceptable levels.
 
-The system should be turned on in turbulent air and thunderstorms, or when a rise in Exhaust Gas
-temperature is noted by the pilot as this is an indication for an engine icing condition.
+The caution lights relevant to engine operation are located on the pilot’s caution - advisory panel, and at the sides of the HUD.
 
-### Anti-Ice Indicator Lights
+The caution lights on the sides of the HUD are the engine stall warning lights which flashes at a 3 Hz rate when an engine stall is detected. The warning light on the left side of the HUD indicates an engine stall in the left engine and the one on the opposite side the right engine. This is also combined with an audio warning, a modulated tone at 320 Hz.
 
-![pilot_anti_ice_indicator_lights](../../img/pilot_anti_ice_indicators.jpg)
+Below the left engine stall warning light is, amongst others, the AUTO THROT (auto throttle) caution light which illuminates for 10 seconds when the auto throttle system is disengaged by other means than the throttle mode switch.
 
-Activation of the Anti-Icing system will illuminate two lights on the telelight panel, L ANTI-ICE On
-and R ANTI-ICE On. A failure of the anti-icing system with the Anti-Icing Switch set to NORMAL will
-also light these telelight indicators as a warning. If the aircraft is above Mach 1.2 when this
-occurs, immediate speed reduction is necessary to prevent engine loss. Because of the warning
-function for the ANTI-ICE ON lamps, a condition that illuminates them will
-provide a MASTER CAUTION warning.
+On the main caution - advisory panel the relevant engine caution and warnings lights are:
 
-## Controls and Indicators
+- **INLET ICE:** Caution light indicating ice detection on the detector in the left engine inlet.
+- **L & R INLET:** Caution lights indicating failure in AICS for respective variable intake system.
+- **OIL PRESS:** Caution light indicating low oil pressure in either engine.
+- **BLEED DUCT:** Caution light indicating hot air leakage in either engine.
+- **L & R RAMPS:** Caution lights indicating respective engine intake ramp not being locked into position when supposed to.
+- **L & R GEN:** Caution lights indicating that respective engine generator is inoperative.
+- **L & R OIL HOT:** Caution lights indicating that respective engine oil is too hot.
+- **L & R FUEL PRES:** Caution lights indicating engine fuel pressure below 9 psi in respective engine fuel boost pump.
 
-### Exhaust Nozzle Control Unit
+**F-14A TF30-P-414A only lights:**
 
-Throttle position, nozzle position feedback and exhaust gas temperature are utilized to schedule the
-correct nozzle area. During engine operation in the sub-mil region, the nozzle area is primarily a
-function of throttle angle and nozzle position feedback. The nozzle is scheduled to approximately
-7/8th open at idle and the area is decreased as the throttle is advanced toward the military power
-position. However, during a rapid throttle burst from below 79% rpm to 98% rpm, a control alternator
-supplies engine speed information to the temperature amplifier, which in turn schedules engine speed
-inputs as a function of temperature limiting. This signal prevents the primary nozzle from closing
-beyond a preset position, permitting a rapid increase in engine rpm that could damage the engine.
-During engine operation in the military and afterburner region, it becomes necessary to limit the
-nozzle schedule as established by the throttle angle and nozzle feedback to prohibit exhaust gas
-temperature from exceeding engine design limits and damaging the engine.
+- **L & R OVSP/VALVE:** Caution lights indicating engine starter system malfunction or N1 rotor overspeed in respective engine.
 
-### Exhaust Nozzle Position Indicators
+**F-14B F110-GE-400 only lights:**
 
-![NPI](../../img/pilot_nozzle_position.jpg)
+- **START VALVE:** Caution light indicating that the starter valve is open. Control engine crank position if lit after engine start completion.
+- **L & R ENG SEC:** Caution lights indicating that respective engine is operating in secondary mode.
+- **RATS:** Caution light indicating that RATS (reduced arrestment thrust system) is enabled.
 
-Directed by the Exhaust Nozzle Control Unit, the paired primary (the convergent,
-inner nozzle) and secondary (the divergent, outer nozzle) are actuated
-independently on a schedule to maximize outlet performance versus exhaust gas
-temperature. When idle, the engine nozzle will be roughly 7/8ths open, reducing
-in size as the throttle approaches MIL. During operation in the MIL and AB
-regions, the Control Unit moderates the nozzle size relative to throttle
-position and received EGT to maintain temperatures within design limit.
-
-To monitor the current position of the nozzles relative to each other, as well
-as EGTs, an indicator
-is provided with calibrations from CLOSE to OPEN in four increments. The nozzle indicators enable
-the pilot to make a comparison of nozzle position between engines and are also used to establish a
-relationship between nozzle position and exhaust gas temperature, as well as nozzle position and
-throttle settings.
-
-Normal settings would be OPEN with the engines off until IDLE, 3/4 to 1/2 with
-engines in IDLE and 1/4 for MIL power. MAX power will not change the indicator.
-
-### Engine Master Switches
-
-![EngineMasterSwitches](../../img/pilot_engine_master_switches.jpg)
-
-A pair of two-position Engine Master Switches are found on the front cockpit left console on
-the inboard engine control panel. Selecting ON powers the fuel boost and transfer pumps for the
-respective engine; this will occur whether the aircraft is connected to external auxiliary power or
-not, as doing so without will connect the aircraft battery to the pump circuits.
-
-As the Engine Master Switches arm the fuel shutoff valves, to properly shut down the engines without
-external power it is necessary to return the throttles to the cutoff position prior to turning
-the Engine Master Switches off, otherwise the valves will remain open.
-
-### Throttles
-
-![Throttles](../../img/pilot_throttle.jpg)
-
-Paired throttles are provided in both cockpits for engine thrust control. In normal use, movement of
-the throttles from IDLE to OFF will perform fuel cutoff; to prevent inadvertent engine shutdown, a
-pair of finger lifts (<num>3</num>) are provided to lock out the OFF position without performing this
-actuation. Afterburner is attained by shifting the throttles outboard (left) at the MIL stop, then
-pushing them forward.
-
-The rear cockpit throttles are connected to the front throttles in such a fashion that only the
-pilot can start the engines or enter the afterburner range; the WSO can reduce throttles out
-of the afterburner region back into MIL operation and lower. While the rear throttles can be shifted
-from OFF without pilot assistance, return to OFF for shutdown requires pilot engagement of the
-finger lifts.
-
-In the event of opposing commands on the throttle arms between seats, the rear
-throttles will be disconnected from the front throttles to prevent damage to
-the linkage. This condition may cause a reduction in afterburner authority from the front throttle
-pair. Resetting the throttle linkage is performed by placing the front throttles at the IDLE or MIL
-stop and moving the rear throttles in the opposite direction to which the disconnect occurred.
-
-The rear throttles only hold a microphone button and speed brake switch.
-
-### Tachometers
-
-![Tach](../../img/pilot_rpm.jpg)
-
-Both engines are provided with tachometers on the right side of the front
-cockpit instrument panel, and the right side of the rear cockpit instrument panel.
-The tachometers will function without external power.
-
-### Exhaust Gas Temperature Indicators
-
-![EGT](../../img/pilot_egt.jpg)
-
-Exhaust Gas Temperature Indicators are found on the front cockpit instrument panel.
-The indicators have two pointers each: a large pointer for the 0 to 12 scale referencing 100 degrees
-centigrade, and a smaller pointer on a separate scale with 0 to 10 referencing 10 degrees
-centigrade. Measuring for these values is performed upon exit of the turbine. For normal operations
-the exhaust gas temperature should not be less than 250°C and should not exceed more than 540°C. If
-an overtemperature Event occurs the throttle should be returned to the off position. If that is not
-possible the respective engine master switch should be turned off.
+**Note:** F-14A specific lights not yet implemented.

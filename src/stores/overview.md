@@ -35,56 +35,31 @@ stations.
 > 💡 In practice, not all combinations might be possible, as there are a lot of
 > technical factors resulting in restrictions.
 
-![Station Overview](../img/stations.jpg)
+![Station Overview](../img/F14.png)
 
-| Store / Station | 9 |  8  | 7 | 6 | 5 | 4 | 3 |  2  | 1 | Total |
-|-----------------|:-:|:---:|:-:|:-:|:-:|:-:|:-:|:---:|:-:|------:|
-| AIM-7           |   |     | 1 | 1 |   | 1 | 1 |     |   |     4 |
-| AIM-9           |   | (2) |   |   |   |   |   | (2) |   |     4 |
-| AGM-12          | 1 |  1  |   |   |   |   |   |  1  | 1 |     4 |
-| AGM-45          | 1 |  1  |   |   |   |   |   |  1  | 1 |     4 |
-| AGM-62          | 1 |     |   |   |   |   |   |  1  |   |     2 |
-| AGM-65          |   |  3  |   |   |   |   |   |  3  |   |     6 |
-| MK-81           | 6 |  3  |   |   | 6 |   |   |  3  | 6 |    24 |
-| MK-82           | 6 |  3  |   |   | 6 |   |   |  3  | 6 |    24 |
-| Mk-83           | 2 |  3  |   |   | 3 |   |   |  3  | 2 |    13 |
-| Mk-84           | 1 |  1  |   |   | 1 |   |   |  1  | 1 |     5 |
-| M117            | 3 |  3  |   |   | 5 |   |   |  3  | 3 |    17 |
-| Mk-20           |   |  3  |   |   | 6 |   |   |  3  |   |    12 |
-| CBU-1/A         | 2 |     |   |   | 1 |   |   |     | 2 |     5 |
-| CBU-2/A         | 2 |     |   |   | 1 |   |   |     | 2 |     5 |
-| CBU-52          | 3 |  2  |   |   |   |   |   |  2  | 3 |    10 |
-| CBU-87          | 3 |  2  |   |   | 4 |   |   |  2  | 3 |    14 |
-| GBU-10          | 1 |  1  |   |   |   |   |   |  1  | 1 |     4 |
-| GBU-12          | 1 |  2  |   |   |   |   |   |  2  | 1 |     6 |
-| GBU-24          | 1 |  1  |   |   |   |   |   |  1  | 1 |     4 |
-| BDU-33          | 6 |     |   |   | 6 |   |   |     | 6 |    18 |
-| BDU-45          | 1 |  2  |   |   |   |   |   |  2  | 1 |     6 |
-| BDU-50          | 6 |  3  |   |   | 6 |   |   |  3  | 6 |    24 |
-| BLU-107         |   |  3  |   |   | 6 |   |   |  3  |   |    12 |
-| GBU-8           | 1 |  1  |   |   |   |   |   |  1  | 1 |     4 |
-| FFAR (×19)      | 3 |  3  |   |   | 3 |   |   |  3  | 3 |   285 |
-| SUU-23          | 1 |     |   |   | 1 |   |   |     | 1 |     3 |
-| SUU-25 (x8)     | 2 |     |   |   | 2 |   |   |     | 2 |    48 |
-| ALQ-131         |   |  1  |   |   |   | 1 |   |  1  |   |     3 |
-| AN/AVQ-23       |   |     |   |   |   | 1 |   |     |   |     1 |
-| AN/ALE-40       |   | (1) |   |   |   |   |   | (1) |   |     2 |
-| Fuel Tank       | 1 |     |   |   | 1 |   |   |     | 1 |     3 |
-
-In general, stations 3, 4, 6 and 7 can be used to load Air-To-Air Missiles, or
-also Jammer and Targeting Pods.
-
-Air-To-Ground Ordnance is mostly carrier on pylons 1, 2, 5, 8 and 9.
-
-Pylons 2 and 8 are special, since they can be equipped with the
-Special-Weapons-Adapter (SWA) and have additional attach-points on their sides
-(labelled 2L, 2R, 8L, 8R) for loading AIM-9 Sidewinder missiles without
-occupying the entire pylon.
-
-> 💡 AIM-9 Sidewinder can be loaded onto pylon 2 and 8 additionally to other
-> ordnance. Hence, it is still possible to equip for example a Maverick on the
-> same pylon.
-
-Further, AN/ALE-40 Countermeasure Dispensers can be attached to the aft section
-of Pylon 2 and 8. Allowing the aircraft to carry a mix between 120 chaff and 30
-flares in total.
+| Weapon Station         | 1A | 1B | 2  | 3  | 4  | 5  | 6  | 7  | 8B | 8A | Total  |
+|------------------------|----|----|----|----|----|----|----|----|----|----|--------|
+|   AIM-9                | 1  |    |    |    |    |    |    |    |    | 1  | 4      |
+|   AIM-7                |    | 1  |    | 1  | 1  | 1  | 1  |    | 1  |    | 6      |
+|   AIM-54               |    | 1  |    | 1  | 1  | 1  | 1  |    | 1  |    | 6      |
+|   Mk-81                | 2  | 4  |    | 3  | 3  |    | 4  | 2  |    |    | 18     |
+|   Mk-82                | 2  | 4  |    | 3  | 3  |    | 4  | 2  |    |    | 18     |
+|   Mk-82AIR             | 2  | 4  |    | 3  | 3  |    | 4  | 2  |    |    | 18     |
+|   Mk-82 Snake Eye      | 2  | 4  |    | 3  | 3  |    | 4  | 2  |    |    | 18     |
+|   Mk-83                | 1  | 3  |    | 1  | 1  |    | 3  | 1  |    |    | 10     |
+|   Mk-84                |    | 1  |    | 1  |    |    | 1  |    | 1  |    | 4      |
+|   Mk-20                | 2  | 2  |    | 1  | 1  |    | 2  | 2  |    |    | 10     |
+|   GBU-10               |    |    |    | 1  |    |    | 1  |    |    |    | 2      |
+|   GBU-12               | 1  |    |    | 1  |    |    | 1  |    |    | 1  | 4      |
+|   GBU-16               |    |    |    | 1  |    |    | 1  |    |    | 1  | 4      |
+|   GBU-24               |    |    |    | 1  |    |    |    |    |    | 1  | 2      |
+|   BDU-33               |    | 3  |    | 3  | 3  | 3  | 3  |    | 3  |    | 18     |
+|   LAU-10 (Zuni)        |    | 2  |    | 2  | 1  |    | 2  |    | 2  |    | 7 (28) |
+|   ADM-141A TALD        |    |    |    | 1  | 1  | 1  | 1  |    |    | 1  | 4      |
+|   SUU-25 F/A Flare     |    |    |    |    | 2  | 2  |    |    |    |    | 4 (16) |
+|   LAU-138 Chaff Adapter   | 1  |    |    |    |    |    |    |    |    | 1  | 2   |
+|   Smokewinder          | 1  |    |    |    |    |    |    |    |    | 1  | 4      |
+|   TACTS                | 1  |    |    |    |    |    |    |    |    | 1  | 2      |
+|   LANTIRN              |    |    |    |    |    |    |    |    |    | 1  | 1      |
+|   FPU-1 Fuel Tank      |    |    | 1  |    |    |    |    | 1  |    |    | 2      |
+|   CNU-188 External Baggage Container   | | | | 1 | | | 1 | | | | 2 |

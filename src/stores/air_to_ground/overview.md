@@ -1,13 +1,5 @@
 # Air to Ground
 
-The F-4E Phantom II's air-to-ground capabilities are marked by a commitment to precision and
-versatility. Armed with a diverse array of munitions, ranging from
-traditional [unguided bombs](bombs/conventional_bombs.md) to
-sophisticated [precision-guided missiles](missiles/overview.md), the Phantom II is equipped to
-undertake a variety of ground attack missions.
+Despite being primarily designed as an air superioty fighter and an interceptor the F-14 was from the very start cleared and tested to carry all of the modern American general purpose bombs (GP) of the Mk-80 series. In addition it was also cleared to carry the Mk-20 Rockeye cluster bomb and the 5” Zuni folding-fin aircraft rocket (FFAR).
 
-Integral to the F-4E's air-to-ground arsenal are guided munitions used for precision strike.
-[Laser-guided bombs (LGBs)](bombs/laser_guided_bombs.md) and other precision-guided munitions enable
-the Phantom II to engage high-value and strategically important targets with unparalleled accuracy.
-
-![dcs_ext_gun_firing](../../img/ext_f4_redkite_rocket_attack.jpg)
+As the F-14’s combat role changed to include the precision ground attack mission it was also cleared to carry several of the guided bomb unit (GBU) versions of the Mk-80 series bombs, more specifically, some of the laser guided versions.

@@ -1,87 +1,35 @@
-# Hydraulics
+## Hydraulic System
 
-![manual_hydraulics_diagram](../img/manual_hydraulics_diagram.jpg)
+The F-14 has two separate hydraulic systems, the flight hydraulic system and the combined hydraulic system.
 
-The hydraulic power system of the F-4E consists of three, completely
-independent, closed hydraulic systems:
+Both systems are driven by hydraulic pumps connected to each engine, the flight hydraulic system from the right engine and the combined hydraulic system from the left engine. Both systems are pressurized to around 3,000 psi when operating normally.
 
-* Power Control System 1 (PC-1)
-* Power Control System 2 (PC-2)
-* Utility System
+Flight control surfaces are supplied by both systems while the combined system also supplies pressure to secondary systems such as the flaps, landing gear and the refueling probe. This is so that both systems can drive the control surfaces independently from each other in case of a failure in the other.
 
-The systems have an operating pressure of approximately 3000 psi
-and are pressurized any time the engines are running.
+Additionally, the hydraulic systems related to systems not necessary while airborne can be isolated by a switch next to the landing gear handle. This is so that damage to those systems won’t affect the combined system pressure and cause fluid loss. The systems that can be isolated are the landing gear, wheel brakes, anti-skid and nosewheel steering. This switch is mechanically locked to not isolating these systems by the landing gear handle when it’s in the down position.
 
-Ailerons, spoilers, and the stabilator have two hydraulic actuators.
-The PC systems are the primary hydraulic delivery to the flight control systems,
-with PC-1 powering the left side of the aircraft, and PC-2
-powering the right; these supply pressure to one of the two actuators on each flight control surface.
-PC-1 is using left engine pump and PC-2 is using right engine pump.
+If only one of the hydraulic pumps fail it’s possible to pressurize that system from the other pump via the hydraulic transfer pump. This pump is an omni-directional hydraulically driven pump that can supply either system from the other and will maintain a pressure between 2,400 and 2,600 psi if the driving system is at around 3,000 psi. If one system pressure falls below 500 psi the pump will be secured to prevent pump damage and preserve pressure in the working system. The pump can also be manually disengaged by the pilot.
 
-The Utility Hydraulic System is pressurized by a hydraulic pump on each engine. To prevent the
-utility hydraulic pumps from resonating, check valves
-with different operating pressures are installed on the
-pump output lines. As a result, the right engine utility
-hydraulic pump will deliver 2775 ±225 psi at idle rpm,
-and the left engine utility hydraulic pump will deliver
-approximately 3000 ±250 psi at idle rpm.
-The Utility System supplies hydraulic
-pressure to all aircraft systems (which need hydraulic pressure) except the stabilator actuator.
-It drives the second actuator on every flight
-control surface (except stabilator), acting as both a power assist and backup.
+In case of failure of both hydraulic pumps the flight hydraulic system can be driven by an electrical pump, called the emergency flight hydraulic pump. This pump is capable of independently driving the tail control surfaces, enabling the aircraft to return home and land even without pressure in either main hydraulic system. The electric pump is automatically enabled if both main systems drop below 2,100 psi and shut off if either reaches 2,400 psi again. The automatic pump activation activates the system in the low mode but it can also manually be selected to either low or high operation. The control surfaces will have a reduced deflection rate if driven by this pump, more so in low than high.
 
-The first stabilator actuator is powered through PC-1 and the second one by PC-2.
-Additionally on aircraft after *TO 1F-4-903*,
-an Stabilator Auxiliary Power Unit (APU)
-is installed to provide backup hydraulic pressure for
-longitudinal control. An electrically driven hydraulic
-pump pressurizes the APU system to 1700 ±100 psi. The
-APU supplies pressure to the PC-1 side of the stabilator
-if PC-1 pressure drops below 1000 psi.
+There is also a hand driven hydraulic pump that can be used to pressurize the refueling probe and wheel brake accumulator if there’s otherwise no pressure in the combined system. This is mainly for unpowered ground operation but can be used as a backup in the air.
 
-> 💡 The PC-1, PC-2, and Utility hydraulic system
-> are independent of each other; therefore, each
-> aileron and spoiler has two independent sources
-> of hydraulic pressure and one system functions as
-> a backup for the other.
+### Controls and Indicators
 
-## Hydraulic Pressure Indicators
+![hydraulic](../../img/hydraulic1.png)
 
-![HydPress](../img/pilot_hydraulic_pressure.jpg)
+The HYD PRESS, hydraulic pressure indicator, contains two gauges indicating COMB, combined, and FLT, flight system hydraulic pressure in thousands of psi. The scales have markings for the nominal 3,000 psi pressure when the pumps are operating normally.
 
-On the [pedestal panel](../cockpit/pilot/pedestal_group.md) in the front cockpit is a pair of
-[Hydraulic Pressure Indicators](../cockpit/pilot/pedestal_group.md#hydraulic-pressure-indicators).
-One for the PC systems and the other for the Utility system. The PC system gauge has two
-pointers, labeled PC-1 and PC-2. Nominal operating power for all three systems
-is 3000 ±250 PSI.
+Below the gauges are flags indicating hydraulic pressure availability to the spoilers SPOIL and the operation of the EMER FLT, emergency flight hydraulic pump. The HI flag indicates on if the emergency flight hydraulic pump is operating in high and the LOW if it’s operating in low.
 
-## Hydraulic Systems Indicator Lights
+![brakepressure](../../img/brakepressure1.png)
 
-![pilot_hydraulic_system_lights](../img/pilot_hydraulic_systems_indicator_lights.jpg)
+The BRAKE PRESSURE gauge shows available pressure in the brake accumulators. PARK indicating parking brake pressure and the AUX indicating wheel brake pressure. The green area represents a pressure from about 2,150 psi to 3,000 psi and the red a pressure below that.
 
-In the event of a pressure loss on PC-1 or PC-2 or the Utility system below 1500 PSI, or a detected
-definite pump failure, CHK HYD GAGES will illuminate on
-the telelight panel along with
-the Master Caution warning.
+![hydraulictransferpump](../../img/hydraulictransferpump1.png)
 
-> 💡 In the event of a Utility system failure on the right side, no apparent pressure loss will be
-> shown to underline the illumination of the CHK HYD GAGES light, whereas a left side failure will
-> show a loss of 200 PSI or more on the Utility system pressure indicator. In any case, if the
-> pressure recovers back to above 1750 PSI, the CHK HYD GAGES light will turn off. In the event of a
-> Utility system failure on the right side, no apparent pressure loss will display to
-> match the CHK HYD GAGES light, whereas a left side failure will show a loss of
-> 200 PSI or more on the Utility system pressure indicator.
+The HYD TRANSFER PUMP, hydraulic transfer pump switch is located on its own panel on the pilot’s right side console. The switch allows for manual shut-off of the pump (SHUTOFF) but is normally in the NORMAL position allowing the pump to activate automatically if either hydraulic pump fails. The switch is guarded to the NORMAL position.
 
-With a CHK HYD GAGES warning, the Master Caution can be cleared by resetting; however, be aware that
-if the CHK HYD GAGES light is still on at that certain moment, a subsequent hydraulic system failure
-will not re-trigger the Master Caution warning, with the consequence of not taking notice.
+The emergency flight hydraulic pump is controlled by a guarded switch on the Master Test Panel. The guarded position, (AUTO)LOW allows the pump to automatically activate as detailed above and the two other positions, HIGH and LOW can manually activate those modes when the guard is up.
 
-Also, the Master Caution and CHK HYD
-GAGES lights can illuminate momentarily during extension of the
-landing gear, or during intense maneuvering due to system load. In such situations, check the
-pressure indicators: should they return to nominal values, disregard the warnings as they will reset
-momentarily.
-
-![Hydraulics repair](../img/hydraulics.jpg)
-*Technical Sergeant (TSGT) Rossell Powell of the 347th Electronic Maintenance Squadron finds a leaking
-hydraulic connection on an F-4 Phantom II aircraft during an aircraft battle damage repair exercise*
+On the Caution - Advisory Indicator the only relevant caution light is the HYD PRESS light indicating that either main hydraulic system pressure is below 2,100 psi. It turns off when both systems are again above 2,400 psi.

@@ -1,18 +1,19 @@
 # Air to Air
 
-The F-4E Phantom II stands as an enduring testament to aerial supremacy, owing much of its
-reputation to its formidable air-to-air capabilities.
+## HUD Symbology for Air-to-Air Missiles
 
-The [AIM-7 Sparrow missile](./aim_7.md) takes center stage in the Phantom II's air-to-air
-capabilities. Comprising a substantial portion of the F-4E's air-to-air armament,
-the [Sparrow's](./aim_7.md) radar-guided system allows pilots to engage adversaries before they
-enter the visual horizon.
+![a2ahud](../../img/a2ahud.png)
 
-![real_life_aim_7](../../img/real_life_aim_7_hawaii.jpg)
+The above image shows the HUD with Phoenixes selected while in air-to-air display mode.
 
-In close-quarters engagements, the F-4E relies on the [AIM-9 Sidewinder,](./aim_9.md) a short-range,
-infrared-guided missile celebrated for its agility and responsiveness. Constituting a vital
-component of the Phantom II's air-to-air weaponry, the Sidewinder excels in the intense and dynamic
-scenarios of dogfights.
+As standard the HUD shows the Closure Rate on the left side in hundreths of knots, from -200 to +1,000 knots. Current closure rate as displayed by a <.
 
-![real_life_aim_9](../../img/real_life_AIM-9.jpg)
+Additionally it displays the Target Range Scale on the right side, showing target range at the displayed scale, 10 NM in this case as display at the upper end. The target range scale shows the current target range with a > and selected weapon max and minimum ranges as indicated by the dashes (-).
+
+The Movable Reticle (called pipper for air to ground and gun employment) and the Target Designator can show different things depending on current situation.
+
+The Movable Reticle shows current TCS line of sight if it exists at the same time as a radar STT lock except for when AIM-9s are selected. In the AIM-9 case it instead shows current AIM-9 seeker head line of sight.
+
+The Target Designator diamond shows current radar STT line of sight if present and if not it instead shows the current TCS line of sight.
+
+So effectually the TCS line of sight can be shown either by the movable reticle or the target designator depending on if a radar STT is also present and if a radar STT is present with AIM-9 selected it’s not shown at all.

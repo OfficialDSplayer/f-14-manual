@@ -1,5 +1,7 @@
 # Navigation
 
+> 🚧 This section is under construction
+
 ![real_life_crew_with_map](../img/map_2.jpg)
 
 Navigation with Jester revolves around managing turn points for two flight plans:

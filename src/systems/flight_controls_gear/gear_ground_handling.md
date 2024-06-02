@@ -1,171 +1,75 @@
-# Landing Gear System and Ground Handling Controls
+# Landing Gear System
 
-The F-4 Phantom uses a conventional tricycle landing gear arrangement, driven by
-the Utility hydraulic system. The Landing gear is electronically controlled and hydraulically
-actuated by the utility hydraulic system. Accidential retraction of the landing gear when the
-aircraft is on the ground is prevented by safety switches on the main gear. The gear is locked down
-by internal finger latches which require hydraulic pressure to release. The automatic disable of the
-nose gear steering and anti-skid system is realized by scissor switches located in the landing gear
-bays. In the event Utility hydraulics are offline, an emergency extension system using compressed
-air is available to lower the gear for landing.
+The F-14 Tomcat has a tricycle landing gear designed to be fully retractable and hardened enough to withstand the rigors of carrier traps. The landing gear extension and retraction is powered by the combined hydraulic system and has an emergency extension system. The emergency extension system has a nitrogen bottle that can be used for a one-shot emergency extension. With the emergency system triggered, it needs to be reset by technicians on the ground to allow further normal retraction.
 
-![ext_view_gears](../../img/ext_f4_wheel_well.jpg)
+For additional information on controls and indicators, see the Landing Gear Control Panel for controls and the Wheels-Flaps Position Indicator for the indicators.
 
-## Landing Gear Control Handle
+## Nosewheel Steering
 
-![GearHandle](../../img/pilot_landing_gear_handle.jpg)
+The nosewheel steering system on the F-14 can be activated with weight on wheels by depression of the nosewheel steering button on the Control Stick. The activation of this system is indicated via the NWS ENGA caution light on the left side of the HUD, see Wheels Warning/Brakes Warnings/ACLS/AP Caution/NWS Engage Caution/Auto Throttle Caution Lights.
 
-The Landing Gear Control Handle is found on the left instrument panel in the
-front cockpit, with a red wheel-shaped knob for identification.
+Disengagement of this system occurs automatically with weight off wheels (take-off), electrical supply failure, or lowering of the launch bar. It’s also possible to deactivate the system by depression of the nosewheel steering button.
 
-## Landing Gear Emergency Extension Handles
+The nosewheel, with the system engaged, is controlled via the rudder pedals. It’s capable of a deflection of up to 70°, meaning that it will turn tightly enough that the inner wheel will move backward.
 
-![wso_emergency_landing_gear_handles](../../img/wso_emergency_handles.jpg)
+## Wheelbrakes
 
-Emergency landing gear extension is driven by a pair of compressed air bottles
-carrying sufficient charge for lowering the gear one time. The emergency extension
-is commanded in the front cockpit is performed using the Gear Control Handle;
-pulling the handle aft in any position releases the compressed air into the
-landing gear hydraulic system, forcing the gear doors to open and the gear to
-lower and lock. Extension can also be performed in an emergency from the back
-seat using a handle on the left sub-panel marked EMERG LDG GEAR. Pulling this
-handle performs the same action as pulling the front cockpit gear control handle
-aft.
+The wheelbrakes can be applied either via the rudder pedals by pressing on the upper part of them, rotating them forwards. The other application is via the parking brake handle located on the Landing Gear Control Panel panel.
 
-## Landing Gear Warning Lights
+The rudder pedals can be used to apply the brakes gradually while the parking brakes are either on or off.
 
-![pilot_wheels_light](../../img/pilot_dscg_wheels_light.jpg)
+Normally both systems are supplied from the combined hydraulic system but if that system becomes depressurised the brake system automatically switches to the backup accumulators. The Emergency Brake Pressure Indicator shows current pressure in the emergency accumulators.
 
-In the upper left corner of the front cockpit instrument panel is a WHEELS
-warning lamp that illuminates when the aircraft is below 230 knots without the
-landing gear lowered. Selecting the gears down or up when the WHEELS lamp is
-illuminated will cause a warning lamp installed in the Landing Gear Control
-handle to light up red.
+If fully charged the auxiliary accumulator allows for about 13 to 14 wheelbrake applications from the pedals and the parking brake accumulator 3 parking brake applications minimum. These accumulators can be recharged via the Hydraulic Hand Pump.
 
-## Landing Gear Position Indicators
+The BRAKES warning light on the left side of the HUD indicates either parking brake applied, antiskid system fail or that the brakes are operating in the emergency mode (only when the pedals are depressed).
 
-![GearPos](../../img/pilot_landing_gear_position_indicators.jpg)
+## Antiskid
 
-Status indicators for the landing gear system are found in both cockpits on the
-left sub-panel. The indicators are three windows, one for each gear station. The
-position of the gear are shown in their respective windows with the word UP when
-up and doors are closed, a barber pole (angled white and black bars) when the
-gear and doors are in transition either closing or opening, and the illustration
-of a wheel when the gears are down and locked.
+The antiskid system modulates the wheelbrakes to prevent skidding while on the ground. When armed in the air the system prevents braking until both main wheels are on the ground and the wheels have spun up. Also the system is not operational below 15 knots.
 
-## Nose Gear Steering
+The antiskid system switch also controls the spoiler brake system that deploys the spoilers as brakes when the throttles are set to IDLE while on the ground.
 
-![pilot_nose_gear_steering_button](../../img/pilot_nose_gear_steering.jpg)
+> **Note:** The antiskid should be disabled during taxi as below 15 knots, the system may disturb normal braking even though the antiskid feature is not operational at those speeds.
 
-Nose Gear Steering (NGS or also NWS) is actuated using the referenced button on the control stick
-in either cockpit. Holding the button down permits the crew member to steer the
-aircraft using the rudder pedals. Steering limit of the nose gear is 70 degrees from
-centerline in both directions.
+The ANTI SKID SPOILER BK switch on the Fuel Management Panel panel controls the system. OFF disables the system, BOTH enables antiskid and the spoiler brake system and SPOILER BK enables only the spoiler brake system.
 
-Rudder steering becomes effective at approximately 70 knots. At this
-speed Nose Gear Steering should be disengaged and not be used any further.
+## Catapult Launch and Arresting Gear
 
-## Wheel Brakes
+### Nosegear Catapult System
 
-Differential steering is provided with weight on wheels using rudder pedal
-deflection. Assistance in braking performance is provided by an included
-Anti-Skid System, which engages with the aircraft over 30 knots. Braking
-function is delayed by the Anti-Skid System on landing until the right main gear
-has been in contact with the ground for 3 seconds, or the wheels reach 50 knots
-of rotational speed.
+The nosegear of the F-14 contains the system allowing for catapult assisted takeoff during carrier based operations.
 
-## Anti-Skid System
+The three components mounted in or on the nosegear are the nosewheel kneel functionality, the launch bar and the holdback fitting.
 
-The electronically controlled anti-skid system
-provides anti-skid protection at wheel speeds over 30 knots. The system detects the start of a skid
-and releases the brake pressure in proportion to skid severity. Below 30 knots the anti-skid
-protection is not available and braking is in direct proportion to the brake pedal movement. The
-system has a built-in touchdown protection feature that prevents braking until 3 seconds after
-weight is sensed on the right main gear or wheel spin up to 50 knots. It should be noted that a low
-coefficient of friction between the runway and tires (as it occurs during Aquaplaning or on icy
-runways) may lead to the wheels not spinning up or cause them to slow below 30 knots wheel speed
-after spin-up. In this case the system falsely detects the aircraft speed below 30 knots and reverts
-to manual braking.
+To enable the system the aircraft is kneeled using the NOSE STRUT switch on the Landing Gear Control Panel. This is done by holding the switch to the KNEEL position until downward movement stops.
 
-### Anti-Skid Control Switch
+This drains hydraulic fluid from the shock absorber, compressing the nosegear strut 14 inches. When compressed this also releases the lock on the launch bar which can then be lowered manually by the deck crew or by turning the nosegear more than 10° from center.
+  
+> **Note:** In DCS, the launch bar is automatically lowered with nosegear kneel.
 
-![AntiSkidSwitch](../../img/pilot_anti_skid_switch.jpg)
+The aircraft can then be guided onto the catapult and connected to the shuttle, in DCS via default keybind U. The holdback bar is currently not modelled in DCS.
+  
+> **Note:** Deselection of nosewheel steering should be done before final movement onto the shuttle and hookup to avoid misalignment.
 
-Next to the oxygen quantity gauge in the front cockpit is the Anti-Skid Control
-Switch, which is used to turn the system ON or OFF.
+The final command to launch the aircraft, after proper procedures, is then to salute the “shooter” or officer in command of catapult launch, default keybind Left Shift + U in DCS.
 
-### Anti-Skid Inoperative Light
+After the catapult stroke, when the launch bar is released from the shuttle, stored hydraulic energy is released to impart a positive pitch moment to the aircraft. This also automatically raises the launch bar into its stowed position.
 
-![AntiSkidSwitch](../../img/pilot_anti_skid_light.jpg)
+Indication of the launch bar status is available on the Caution - Advisory Indicator via the LAUNCH BAR advisory light. The advisory light is on with weight on wheels when the launch bar is not up and locked and turns off if throttles are advanced to MIL to enable a lights out for launch criteria. With weight off wheels the LAUNCH BAR advisory light is on if the nose strut hasn’t fully extended, launch bar is not up and locked or nosewheel hasn’t centered correctly. This inhibits nosegear retraction.
 
-Found on the front cockpit left console, the ANTI-SKID INOPERATIVE light will
-indicate when the Anti-Skid Switch is set to OFF, the Emergency Quick Release
-Lever is pressed, or there is a system issue.
+The Launch Bar Abort Panel contains the LAUNCH BAR switch used to disengage the launch bar in case of an aborted launch. This functionality is currently not implemented in DCS, unhooking the launch bar is currently accomplished by another depression of the hookup key, default key U.
 
-### Emergency Quick Release Lever
+### Arresting Gear
 
-![pilot_emergency_anti_skid_lever](../../img/pilot_emergency_quick_release.jpg)
+The arresting hook located on the underside of the tail of the F-14 is used for arrested landings during carrier operations.
 
-Should the Anti-Skid system appear to malfunction during a rollout, the system
-can be immediately disengaged by holding down the Quick Release Lever found on
-the control sticks in either cockpit. This will illuminate ANTI-SKID INOPERATIVE
-warning.
+The system uses hydraulic power from both flight and combined hydraulic systems and is controlled electrically, thus requiring electrical power as well.
 
-## Emergency Hydraulic Brake System
+Operation of the system is via the arresting HOOK handle on the Arresting Hook Panel. UP raises the arresting hook and DN, down, lowers it to 37° allowing it to catch the wire during a correctly executed carrier “trap”. The transition light next to the arresting HOOK handle illuminates whenever the arresting hook position does not correspond with handle position.
 
-![EmergencyHydraulicBrakeSystem](../../img/pilot_emergency_brake_handle.jpg)
+If on board failures do not allow for normal hook lowering it’s possible to use a mechanical backup to deploy the hook. To activate the mechanical backup, pull the handle out and rotate it 90° counterclockwise. This releases the mechanical uplock and drain the hydraulic pressure keeping the hook up, thus lowering it.
 
-In the event of a Utility hydraulic system failure, emergency differential
-braking is provided by pulling the Emergency Brake Handle on the lower left side
-of the instrument panel in either cockpit. Doing so forces hydraulic pressure
-from a reserve accumulator, and provides enough power for approximately 10 brake
-applications.
+If electrical power and hydraulic power are restored, it’s then possible to retract the hook by rotating the handle 90° clockwise and pushing the handle back in and then setting it in the default UP position.
 
-## Arresting Hook System
-
-![ArrestingHook](../../img/pilot_tail_hook_lever.jpg)
-
-The Phantom carries a retractable arresting hook for ground stopping in
-emergency takeoff and landing situations that will reach the strip overrun.
-Placing the Arresting Hook Handle in the front cockpit into the DOWN position
-will lower the hook in approximately five seconds. Lowering the hook will
-illuminate a red warning lamp in the Hook Handle, and illuminate the HOOK DOWN
-warning on the telelight panel.
-
-The system is not intended to be used for carrier operations.
-
-![ext_arresting_hook_out](../../img/ext_hook_shot.jpg)
-
-## Drag Chute System
-
-![DragChuteHandle](../../img/pilot_drag_chute_handle.jpg)
-
-The F-4E has an available Drag Chute to reduce landing roll as necessary. The
-chute can also be used for spin recovery. Deployment of the chute is performed
-by rotating the handle found in the front cockpit. The chute is drawn from its
-door with a smaller pilot chute. Once the chute has deployed and performed
-sufficient braking action or the aircraft has recovered into a controllable
-state, the chute is jettisoned by pressing the button and pulling the handle
-back, then lowering it. This action releases the chute cables and allows it to
-pull free.
-
-Do not use the Chute in excess of 200 Knots IAS while landing.
-
-For spin recovery the Chute can be used by pushing the stick full forward, putting ailerons and
-rudder in a neutral position and deploying the chute.
-
-> 💡 Drag chute should not be dropped on the runway or a taxiway.
-> A popular technique is to leave it on the side of a taxiway
-> by appropriately orienting the aircraft, inflating the chute
-> with the engines and then releasing it in the desired direction.
-
-![ext_drag_chute_out](../../img/ext_drag_chute.jpg)
-
-## Wing Fold System
-
-![ext_wings_folded](../../img/f4_folded_wings.jpg)
-
-The F-4E includes a wing fold system to assist in maintenance and ground
-handling. Unlike prior models, the wing fold apparatus on the F-4E is un-powered,
-and requires ground crew members to manually move the outboard panels with the
-fold control activated to release the locking mechanism.
+> **Note:** Hook position also affects the AoA indexer and approach lights, making them flash with gear down if the hook is not also down. This feature can be disabled using the HOOK BYPASS switch on the Master Light Control Panel.

@@ -1,403 +1,85 @@
 # Historical Background
 
-## 1953-1958: Development Phase (F3H to AH-1 and F4H)
-
-![real_life_f4_mockup_with_missiles](../img/real_life_f4_mockup_with_aim_7.jpg)
-*Mockup of the F-4 with AIM-7 Missiles*
-
-The developmental onset of the **F-4 Phantom II** began in the aftermath of
-McDonnell's loss in the US Navy's 1953 **Day Fighter Competition** - the victor
-of which was the **Vought F8U**. Choosing not to rest on failure, McDonnell
-representatives canvased the Navy Bureau of Aeronautics, a number of operational
-commands, the office of the Chief of Naval Operations, and any pilot or
-maintainer willing to discuss the state of current naval aviation.
-
-After nearly a year of analysis and design work - including a full scale mockup,
-the design of what they would classify as a **general fighter** took shape. The
-potential of a general fighter aircraft, rather than the specialized focus
-preferred by the Navy at the time, was rooted in the success of the **F3H-1
-Demon** in threading of that very needle.
-
-### F3H-1 Demon
-
-The Demon had been built as design in opposition of the **F4D Skyray** in the
-interceptor role. As the Skyray proved its supersonic superiority during the
-development cycle, McDonnell expanded the F3H Demon's capabilities to include
-respectable air to ground armament to justify its place in the limited carrier
-compliment when compared to the **F10F Jaguar** and **F7U Cutlass**, which were
-also undergoing development at the time.
-
-Ultimately outfitted with the AIM-9 Sidewinder and AIM-7 Sparrow - the latter
-giving the F3H a beyond visual range capability the Skyray could never boast,
-and topping out with the ability to carry and deliver 6,000 lbs of air to ground
-ordnance, the Demon out-measured its competitors in combat potential, even when
-it came in second on paper for raw performance.
-
-Beginning with the intention to grow out the Demon as the baseline airframe, a
-set of engineering evaluations were performed including both single and twin
-engine configurations with different wings. The two most promising data sets-
-twin-engine builds of the type designated the **F3H-G** and **F3H-H** powered
-the General Electric J65 and J79 respectively, replaced the original Demon wing
-with a 45 degree swept wing.
-
-Particular focus was paid towards making the new aircraft **multi-mission
-capable**, running a wide gamut of potential operations: day or all-weather
-attack, photo recon, day or all-weather interception with a Sparrow-compatible
-radar, electronic warfare, and a two seat strike coordination configuration.
-Experimentation with this wide-ranging design intent went so far as to include a
-novel interchangeable nose and cockpit arrangement, allowing airframes to be
-reconfigured within a matter of hours for a given mission set with the necessary
-systems fit for the crew.
-
-While the Navy showed little interest in the nose replacement capability, the
-bottom line numbers from the F3H-G and -H investigations got their attention. On
-paper, they were capable of reaching Mach 1.52, and an eye-watering Mach 1.97 at
-35,000 feet, respectively.
-
-By October of 1954, Navy Bureau of Aeronautics (BuAer) had evaluated similar
-unsolicited proposals from Grumman, Douglas, and North American, and provided
-McDonnell with a $38 million dollar contract for two flying examples of the
-Demon follow on - internally designated as the **AH-1**.
-
-![McDonnell F3H-G Mockup](../img/F3HG.jpg)
-*McDonnell F3H-G mockup; US Navy photo*
-
-### AH-1
-
-Two months later, the Navy threw McDonnell a curveball, directing the type to be
-**stripped of the air to ground fitment**, and focusing on the all-weather
-interceptor role in a single seat configuration, with the finalization for this
-change in role being formally announced in April of 1955.
-
-The changeover was, in some quarters, considered catastrophic - over time
-forcing the removal of the planned internal gun, and stripping all of the
-hard-points, save for the recessed Sparrow fuselage wells and a centerline tank
-position. At this point, the determination of the **J79** as the power plant was
-finalized with the Navy's desire for a Mach 2 interceptor. Further, the
-determination of a two-man crew as also put in place by the Navy - like
-McDonnell's own research, success in the faster, longer ranged interception
-environment showed the utility of a second man to handle the scope.
-
-However, it wasn't a done deal. BuAero had been keeping conversation with Vought
-at the same time, and in mid-1955 detailed a fly-off between the two competing
-firms for the new interceptor role; this time pitting McDonnell's AH-1 contender
-with an outgrowth of the already in-service **Crusader**: the **F8U-3**.
-
-### F4H (F-4A)
-
-Redesignated the **F4H** (or also **F-4A**) in the intervening two and a half
-years leading into the late 1958 fly-off, McDonnell's Phantom II would trade
-substantial blows with Vought's Crusader III during the Navy Preliminary
-Evaluation. Whereas McDonnell's design entered the flight testing phase a month
-prior (and nominally entered engineering almost a year ahead of Vought's entry),
-the benefits of Vought carrying over much of the prior Crusader's aerodynamic
-profile appeared early in the comparison. The Crusader III was first to reach
-Mach 2 in flight testing, shown capable of reaching higher top speeds during the
-Navy preliminary evaluation, and noted for having more refined airframe handling
-in most regimes.
-
-![f-4h_aboard_the_uss_independence](../img/f-4h_aboard_uss_independence.jpg)
-*F-4H aboard the USS Independence in 1960; US Navy photo*
-
-But as the Evaluation continued, it was found that McDonnell's Phantom II
-countered the Crusader III where it mattered: in **combat capability**. The Navy
-wanted a Mach 2 interceptor, not an overgrown daylight fighter.
-
-The F8U-3's integration of the Sparrow was found lacking versus that of the
-Phantom, having surrendered an AIM-7 against the F4H due to aerodynamic
-performance concerns. Of even greater concern for the interceptor role - as
-McDonnell had previously found internally, the pilot overhead to manage the
-AN/APG-74 radar installation in the Crusader III while in combat was found to be
-too high to maintain effectiveness, whereas the back-seater in the Phantom II
-could reliably acquire situational awareness on the radar and maintain track
-locks for engagement while maneuvering.
-
-McDonnell's F4H, while having more raw flying qualities, could fight as the Navy
-needed it to. Further, as the firm had continued developing its air to ground
-potential at the request of the Navy, even as they repeatedly altered the
-program goals - the Phantom II, like the Demon before it, justified its
-existence in the carrier compliment in all fights, not just the long range
-interception role. And so on December 17th, 1958, the Navy Preliminary
-Evaluation board announced its findings and the **winner of the fly-off:
-McDonnell's Phantom II**.
-
-## 1958-1963: A Navy Interceptor with Multi-role Pedigree (F4H to F-110 and F-4)
-
-The US Air Force was not oblivious to the Phantom II's development, as the Navy
-having asked for the air to ground capability be revisited gave McDonnell a
-point of entry. While the Air Force entertained McDonnell representatives in
-discussion about a new ground attack airframe, the service actually had interest
-in the Sparrow-dealing F4H as a replacement for the **F-106**.
-
-The Air Defense Command requested an evaluation in 1961 known as *Project High
-Speed*, which once again proved the Phantom II superior to a challenger in the
-interceptor role. In light of the findings, Navy offered a bombing demonstration
-for Air Force representatives of the Tactical Air Command, making special note
-of the successful air to ground trials with the Phantom's multiple ejector
-racks - a capability the USAF lacked. With Air Force policymakers, members of
-Congress, and even General Curtis LeMay in attendance during this demonstration
-series - with a VX-5 F4H-1 accurately delivering twenty-two 500 lb bombs in
-spectacular fashion, the stage was set for a Navy/McDonnell tactical aviation
-coup.
-
-![f_4_dropping_bombs](../img/real_life_f_4_dropping_bombs.jpg)
-*F-4E Phantom II of the 347th Tactical Fighter Wing airdropping six 500-lb Mark 82s*
-
-The inauguration of the Kennedy administration in January 1961 didn't hurt
-matters; Kennedy brought in former Ford Motor Company president Robert McNamara
-as Secretary of Defense. With an eye for optimization - sometimes to a fault,
-the performance of McDonnell's F4H was seen as a standout to capitalize upon in
-light of the administration's new conventional doctrine of *"Flexible
-Response"*; no longer would nuclear deterrence be the primary backstop of the
-US' promise to NATO.
-
-While McNamara desired for the Navy's **A-7** and the Air Force's **F-111** to
-fulfill tactical bombing roles for both services, the two airframes were at
-least five years out to operational capability; the Phantom existed, provided
-outstanding performance immediately, and could quickly raise the desired 50%
-increase in conventional force structure the White House expected for the Air
-Force. Pressure from all sides - the White House, Congress, McDonnell, and
-foreign interest, ultimately defeated the USAF's resistance to an airframe *"not
-made here"*, and by January 1962 the USAF's budget had **Phantoms on order from the
-Tactical Air Command**; the Air Defense Command, which had started the Air
-Force's investigation into the Phantom, would be left with the **F-106**.
-
-### F-110 Spectre
-
-Designated for a time as the **F-110** to fit in with the Air Force's Century
-Series as a matter of service pride, McDonnell's Air Force Phantom went into
-motion. An initial delivery of Navy-configured F4Hs were provided for training
-and evaluation later that year, with the first flight of a true **F-4C** taking
-place on May 27th, 1963 - the universal service designation system converting
-the F4H-1 to the **F-4B** in September of 1962.
-
-### F-4B and -C
-
-Reconfiguration of the Phantom II for the USAF was expedient, with the focus
-being on service-compliant alterations. These included altering of the landing
-gear system for higher speed field operations, the addition of dual flight
-controls, an anti-skid implementation, and conversion to boom refueling
-compatibility.
-
-Further changes included the addition of the LN-12 inertial navigation system,
-conversion to the APQ-100 radar with air to ground specific functionality, and a
-cartridge starting system for field use without a compressed air cart in
-combination with an internal battery.
-
-This F-4C configuration would be the first Phantom used during the USAF's
-involvement in **Vietnam**, beginning in December of 1964.
-
-## 1965-1974: Backtracking with Haste - Vietnam (F-4D and F-4E)
-
-![F-4_dropping_over_Vietnam](../img/F-4B_VF-111_dropping_bombs_on_Vietnam.jpg)
-*F-4B dropping bombs over Vietnam; US Navy Photo*
-
-The Phantom's initial deployments to Southeast Asia delivered a number of
-firsts - the first officially **confirmed MiG-17 kill** with the AIM-9
-Sidewinder (on July 10th, 1965), and the first US air-to-air **shootdown of a
-MiG-21** (April 26th, 1966). Unfortunately, the Phantom was also the victim of
-the **first US loss to a SAM** in Vietnam (July 24th, 1965), and the first US
-air-to-air **loss from a MiG-21** (October 5th, 1966).
-
-With the initial teething problems of the type out of the way - including
-alterations to the wing fuel cells and internal wiring, the Phantom was found to
-be a capable, reliable airframe for the Air Force. Even the missing gun had been
-worked around to some degree, with the integration of the SUU-16 and SUU-23
-**external cannon pods**.
-
-### F-4D
-
-The in-production upgrade to the Air Force's first Phantom - the **F-4D**, would
-include a multitude of quality of life improvements: the APQ-109 radar with air
-to ground modes, the ASN-63 internal navigation system, the ASQ-92 release
-computer, and the APX-80 "Combat Tree" IFF system. Further additions would
-include automatic fuel transfer and a new sight, the ASG-22. Combat
-survivability would be reinforced with the APS-107 RHAW and ECM pod
-compatibility, along with new ejection seats. Yet, the service's desire to put
-its own *"made here"* flourish on the type continued, inauspiciously culminating
-in the integration of the **AIM-4 Falcon** with the F-4D model.
-
-#### AIM-9 vs AIM-4
-
-Used on the **F-102 Delta Dagger** and **F-106 Delta Dart**, and considered by
-some to be a reasonable competitor to the **AIM-9 Sidewinder**, Air Force
-leadership believed the AIM-4 Falcon could be installed in replacement of the
-Navy's short range round with no loss of capability; this was quickly found to
-be a mistaken premise.
-
-While the AIM-9B had limited maneuvering restrictions for launch and acquisition
-like other short range infrared missiles of its generation, it was substantially
-more reliable in use; the Falcon's cooling implementation could only maintain
-the required seeker temperature for a short time once activated, and could not
-be turned back on once the cooler timed out, while the un-cooled 9B could remain
-available indefinitely.
-
-Sidewinder acquired far more rapidly - in many instances in less than two
-seconds, versus the six to seven seconds required for the Falcon.
-
-Worse still, the AIM-4 was a hittile - its fin-contact triggered fuzing required
-direct target impact for the missile's warhead to detonate, whereas the AIM-9
-carried a proximity fuze; any Sidewinder that got close to its target was a
-threat to kill.
-
-![f4_over_vietnam](../img/F-4Ds_435th_TFS_over_Vietnam.jpg)
-*F-4D of the 435th TFS over Vietnam*
-
-With initial F-4D deliveries to the 8th TFW in May of 1967, the performance of
-the new configuration was quickly met with derision. The employment envelope was
-too small compared to the Sidewinder, the lead time too long, and the weapon far
-too unreliable to put into practice in the dynamic maneuvering environment of
-air combat as it was waged in Southeast Asia.
-
-The failure of the Falcon to succeed not only served to reaffirm the quality of
-the Sidewinder in comparison - and also highlighting the need for the service to
-upgrade the round as the Navy was doing, but reinforced the concern held by
-aircrews about the lack of an internal gun. SUU installations by this point had
-scored multiple victories over North Vietnamese MiGs (ultimately ending the war
-with **9 confirmed kills**), and it was decided to rectify what many had
-considered the Phantom's original sin with further revision to the F-4.
-
-### F-4E
-
-By this time McDonnell was laying down the program update plan for the F-4E, and
-the jet was intended to carry the M61A1 gun internally, and with it - the Hughes
-CORDS (Coherent On Receive Doppler System) radar. Hughes was unable to
-successfully deliver their CORDS system, and the Westinghouse APQ-120 radar
-would be selected in January 1968 as its replacement. The APQ-120 was a full
-solid state conversion of the APQ-109/117, re-engineered to meet the
-requirements of the internal cannon installation. The radar would receive
-changes to its mount, additional dampening, and a reduction antenna's height to
-fit in the smaller cavity directly above the cannon barrel assembly.
-
-Further adjustments to the F-4E were made to improve the Phantom's lethality.
-Hardware deleted for Sidewinder compatibility in the F-4D was updated and
-returned. The ASG-26A Lead Computing Optical Sighting System was installed along
-with updated aircrew in-range and shoot warning cues, providing pilots with a
-clearer picture of the weapons envelopes of the Sparrow and Sidewinder. The
-updates to the Echo Phantom would not stop there; compatibility with
-multi-ejection racks and updates to the Weapon Release Computer to match
-provided further bombing capabilities, the **AGM-65 Maverick** was made
-available in both IR and electro-optical variants, the leading edge of the wings
-were fitted with slats for increased maneuvering potential, and the Digital Scan
-Converter Group interface for the APQ-120 was installed.
-
-Unfortunately, the F-4E's initial deliveries from October of 1967 would align
-its operational entry with the drawdown of the US' Rolling Thunder bombing
-campaign over North Vietnam. The type would have to wait until 1972 to put the
-true extent of the jet's upgrades to the test. With the resumption of the air
-campaign in February of that year, the E-model Phantom II would fly thousands of
-missions, and in the span of seventeen months score **21 air to air kills**.
-
-### Training Program Rivet Haste
-
-Also of note was Rivet Haste - a late Vietnam training initiative in 1972
-heavily influenced by two midlife updates - modification "556" and TISEO.
-
-Prior to "556", weapons mode changes required the pilot to go hands off the
-throttle and look down to the release panel, cycling a number of switches to
-disarm various pylons and arm others; in the event of a lucky North Vietnamese
-bounce, or the need to swap between weapons on the fly - looking away from the
-threat was time-consuming and dangerous.
-
-With the modification, a pair of override switches were added to the outboard
-throttle grip. The first, the *"pinky"* switch, placed control of the gun,
-Sidewinder, and Sparrow in one of three positions, while the second, on the
-forward face of the grip, switched weapons modes immediately between air-to-air
-and air to ground; the pilot would now have immediate access to his air-to-air
-weapons, and could swap them on the fly - never once looking down in the
-cockpit. This modification gave birth to the concept called HOTAS - hands on
-throttle and stick.
-
-556 also included modifications to the armament panel for air to ground
-munitions, adding ripple release capability while reducing the number of
-controls required to access full ARBCS programming.
-
-### TISEO Upgrade
-
-Further reinforcement of crew initiative was the installation of TISEO - the
-Target Identification System Electro-Optical, in 1974.
-
-![real_life_f_4_with_tiseo](../img/real_life_f_4_tiseo.jpg)
-*An F-4E Phantom II with a TISEO mounted on left wing above the blue practice bombs*
-
-Consisting of a 4x/10x camera installed in the left wing, TISEO provided visual
-identification of distant, radar-locked targets, enabling the AIM-7 Sparrow to
-be used to its full extent when combined with the APX-80 IFF system. Crews could
-now independently confirm two ID factors before the merge, entering the fight
-with more of an advantage - even if they would not be cleared to fire beyond
-visual range.
-
-Coupled with the Rivet Haste training - which put experienced aircrews through a
-program to codify them as systems and tactics instructors (not unlike the NFWS
-education being given to USN crews at the same time), the students championed
-the modification program of the Phantom, and pushed for Double Attack (a
-parallel development of Loose Deuce as had been used by the Navy in Vietnam
-since the resumption of the bombing campaign) to become the standard for
-air-to-air methodology across the Air Force.
-
-While this training was ultimately too late to have real effect, with the final
-halt on US bombing coming just weeks after the first Haste student crews
-returned to Vietnam, they would set the tone for USAF Phantom crews going
-forward.
-
-## 1975-1991: A Cold Warrior
-
-As the Vietnam War drew to a close, the F-4E transitioned from active combatant
-to cold warrior. While the F-15 and F-16 both stood on the horizon to take the
-premiere positions in tactical air to air and air to ground roles, the sheer
-depth of the Phantom's numbers across the USAF and its allies meant the F-4E
-would remain at the tip of the spear for another two decades.
-
-Keeping the F-4 effective as a strike platform and air to air combatant was
-vital, and the E's capabilities continued to be expanded into the 1980s.
-Provision for the all-aspect AIM-9L and M Sidewinders would be installed, as
-well as the improved AIM-7F, and later, the AIM-7M Sparrow. The
-television-guided GBU-15, with its required **data-link system**, would be
-integrated in the Phantom beginning in 1975. To deliver additional guided
-munitions the F-4E would receive not one, but two targeting pod options - **Pave
-Spike** and **Pave Tack**.
-
-Of particular note is the installation of the Digital Modular Avionics System,
-or **DMAS**. DMAS was a complete replacement of the Phantom's navigation
-computer, inertial navigation set, and the WRCS, which used LORAN (**Lo**ng
-**Ra**nge **N**avigation) radio signals to accurately define the aircraft's position
-anywhere in the world. The inclusion of DMAS provided a substantial improvement
-in the F-4E's navigation options and weapon release precision, and an expansion
-of the Phantom's delivery mode capabilities.
-
-The F-4E would see its front line service end in the United States Air Force
-immediately following Operation Desert Storm, with the last remaining users of
-the type withdrawn from active duty service. US Air National Guard units would
-maintain the type until the mid-90s, with various units seeing them replaced by
-other types as appropriate for their respective missions and locations.
-
-## The F-4E Phantom II Today
-
-Of all Phantom models, the F-4E was the most numerous version that has been
-built totalling at **1370 units**.
-
-The F-4E Phantom II is still in service at some operators across NATO including
-the Hellenic Air Force, the South Korean Air Force and the Turkish Air Force.
-
-They are expected to fly at least **until 2030**.
-
-## Variant Overview
-
-Beyond the F-4E, several Phantom variants have been build for various purposes.
-
-| Variant | Description                                                 | Base Variant | First Flight |
-| :-----: |-------------------------------------------------------------| :----------: | ------------ |
-|    A    | Prototype and pre-production model                          |              | 1958         |
-|    B    | First production ready model for the US Navy                |      A       | 1961         |
-|    C    | Several improvements for more effective use by the USAF     |      B       | 1963         |
-|    D    | Modernization and improved air to ground capabilities       |      C       | 1965         |
-|    E    | Further improvements, better radar and nose gun             |      D       | 1965         |
-|    F    | Slimmed down export variation used by Germany               |      E       | 1973         |
-|    G    | *Wild Weasel* upgrade to locate and fight SAM systems       |      E       | 1976         |
-|    J    | US Navy variation for carrier operation                     |      B       | 1966         |
-|    K    | Royal Navy variation with a different engine                |      J       | 1966         |
-|    M    | Royal Air Force variation with a different engine           |      J       | 1966         |
-|    N    | Modernized systems and structural improvements              |      B       | 1970         |
-|    S    | Modernized systems and smoke-free engines                   |      J       | 1977         |
-|   RF    | Several Phantom variants modified for reconnaissance        |   B, C, E    |              |
-|  QF-4   | Retrofitted as remote-controlled target drones for research |     many     |              |
+## F-14 Tomcat
+
+![F-14 Tomcat](../img/F-14TU95.png)
+*U.S. Navy photo by LT J.G. Thomas Prochilo. (DN-SC-83-06680)*
+
+The F-14 Tomcat can trace its origin back to the 1950’s and the US Navy’s need for a carrier based long range interceptor to fill the Fleet Air Defence role. It was decided that it needed an aircraft with a more advanced and longer ranged radar as well as longer ranged air-to-air missile than the F-4 Phantom.
+
+The Navy was directed, by then defense secretary Robert McNamara, to join the Tactical Fighter Experimental or TFX program to procure this aircraft in a joint venture with the US Air Force. The Navy was opposed to this from the beginning and the proposed General Dynamics F-111B did not meet the Navy’s expectations.
+
+Grumman, which had been brought on board by General Dynamics for the Navy F-111B, was eventually awarded a contract to begin development of an aircraft more suited to the Navy’s requirements. This led to the design that would eventually become the F-14, carrying over the radar (AN/AWG-9) and missiles (AIM-54 Phoenix) from the failed F-111B project.
+
+The F-14 Tomcat first flew on the 21st of December 1970 and entered service on the 22nd of September 1974. The name “Tomcat” follows Grumman’s tradition of naming their aircraft after cats and also partially from the nickname “Tom’s Cat” for Vice Admiral Thomas F. Connolly who was instrumental for the development of the F-14.
+
+### Service Life Upgrades
+
+The first version of the F-14, the F-14A was equipped with the Pratt & Whitney TF30 and carried an IRST system in the chinpod under the nose.
+
+The TF30 engines were generally regarded as temperamental and underpowered for the F-14A and were eventually replaced by the General Electric F110-400 engines in the F-14A+ (later F-14B).
+
+The IRST system was rather quickly determined to be underperforming and replaced with the TCS (Television Camera Set) in the chinpod allowing for greater than visual range identification of radar tracked targets.
+
+Both the F-14A and F-14B received continuous upgrades during their life, including new programmable cockpit displays (PTID and PMDIG) as well as a new INS system, a digital flight control system (DFCS) and an RWR system amongst others.
+
+Eventually, the Tactical Reconnaissance mission was also added to the F-14’s portfolio, enabled by the TARPS system, allowing the Tomcat to gather photographic reconnaissance material.
+
+### Ground Attack
+
+![Bombcat](../img/bombcat.png)
+*Photo by LCDR Dave Parsons. (DN-SC-93-01299)*
+
+During the 1990’s when the aerial threat to the fleets of the US Navy lessened and with the advent of operations like Desert Storm, the ground attack role was resurrected.
+
+The ability to carry and deliver air-to-ground munitions had been implemented in the F-14 from the beginning but ruled out by the Navy as cost and risk ineffective given the F-14’s role as a Fleet Air Defence fighter.
+
+With the renewed interest for this role, some of the F-14As and F-14Bs were equipped to carry the LANTIRN targeting pod allowing the RIO to find and designate laser guided bombs for his own aircraft and others. Later on the ability to carry and deliver gps-guided JDAMs was also added.
+
+Most of the LANTIRN equipped aircraft were the ones upgraded with the programmable TID or (PTID) allowing for greater integration of the LANTIRN.
+
+### F-14D
+
+In the 1990’s the ultimate F-14 version was beginning to see service, the F-14D.
+
+The F-14D used the same engines as the F-14B, the GE F110-400s in addition to using the digital flight control system, which was eventually retrofitted into operational F-14As and F-14Bs as well.
+
+In addition, the F-14D also had a newer, more advanced version of the AN/AWG-9, the AN/APG-71, as well as a whole suite of upgraded avionics along with a new chinpod combining the TCS with a new, improved IRST system.
+
+### End of Service
+
+The F-14 Tomcat did eventually show its age, forcing the Navy to retire it due to increased maintenance costs and the general status of the now dated airframes. Additionally, the Tomcat’s primary role, the Fleet Air Defence role, seemingly disappeared with the end of the Cold War.
+
+The Tomcat was finally retired in a ceremony on the 22nd of September 2006 at NAS Oceana.
+
+## Iran
+
+![Iranicats](../img/iranicats.jpg)
+*IRIAF photo circa 1986.*
+
+The only other operator of the F-14 Tomcat was the Imperial Iranian Air Force, later the Islamic Republic of Iran Air Force, for which the Shah of Iran, Mohammad Reza Pahlavi acquired 80 Tomcats.
+
+The eventual fall of the Shah and the rise of the Islamic Republic of Iran meant that a country now opposed to the United States had access to one of its most advanced fighter aircraft. This meant that the Iranian F-14s now lost access to new spare parts and missiles, apart from black market sources, greatly increasing the difficulty of maintaining the aircraft.
+
+The F-14 Tomcat was used during the Iran-Iraq war, claiming a great number of air-to-air victories over the Iraqi Air Force, with some sources going so far as to claim that Iraqi pilots at times left the contested air space to avoid facing the AN/AWG-9 - AIM-54 combo.
+
+To this date the IRIAF continues to fly the F-14 Tomcat as the sole operator. It’s not entirely known how the Iranians source their spare parts but it’s assumed that they’ve had to cannibalize inoperable aircraft to keep a portion of their fleet flying. In addition, rumours exist mentioning black market sources as well as indigenous production of some parts.
+
+The Iranian operated Tomcats are of the earlier F-14A revisions, using the TF30 engines and lacking a TCS or IRST system.
+
+## AIM-54 Phoenix
+
+![Phoenix Missile](../img/phoenix.jpg)
+*U.S. Navy photo by Capt. Dana Potts. (020924-N-1955P-001)*
+
+The AIM-54 long-range air-to-air missile was born from the same TFX program as that which eventually led to the F-14 Tomcat.
+
+It was designed for the F-111B and then adopted for the F-14 as a long-range missile capable of long range engagement of enemy bombers in addition to hostile cruise missiles. That’s not to say that the AIM-54 Phoenix was a slouch at engaging other smaller targets as well.
+
+Outstanding features of the AIM-54 missiles were their long range as well as their ability to be launched at up to six simultaneous targets, guided first by the AN/AWG-9 radar in the launching aircraft and then its own active radar seeker independently.
+
+The original AIM-54 Phoenix was the AIM-54A with a mk47 rocket motor. The motor was later on upgraded, creating the mk60 motor, increasing the missile’s range. Eventually the AIM-54 itself was also upgraded, resulting in the AIM-54C with, amongst other things, an upgraded seeker head and a newer version of the mk47 producing less smoke, making the missile hard to spot visually.
+
+The US Navy fired only three AIM-54 missiles in combat, all three over Iraq. The missiles never hit their intended targets though as two of the missiles’ rocket motors failed with the third also missing its target as it turned tail and ran.
+
+While little is known for certain in the western hemisphere, the IRIAF claims at least 78 air-to-air victories using the AIM-54 against Iraqi MiG-21s, MiG-23s, MiG-25s, Mirage F-1s, Super Etendards and even some anti-ship cruise missiles.

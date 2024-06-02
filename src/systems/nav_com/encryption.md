@@ -1,96 +1,37 @@
-# KY-28 Speech Security Unit
+# TSEC/KY-28 Voice Security Equipment
+The security equipment is integrated and operates with the VHF/UHF 2 and UHF 1 communication sets to enable secure voice in a hostile environment. The KY-28 control panel on the RIO left side console is the only cockpit control for operating the KY-28 in either cipher or plain-language modes.
 
-## Speech Security Unit KY-28
+The KY-28 has two basic modes of operation: plain (P) and cipher (C). The plain mode is used during normal UHF communications. The cipher mode is used when secure voice communications are desired. The radio sets must be ON to attain secure operation. The receiving station must be properly equipped to receive transmissions in the proper cipher mode.
 
-The UHF communication system is capable of providing either conventional or
-crypto voice transmission and reception. Both UHF and intercom systems can be
-used in combination with the KY-28 Speech Security Unit, if so desired in a
-tactical or hostile environment. The KY-28 can either cipher outgoing voice
-transmissions or decipher received voice transmissions; however, these functions
-cannot be performed simultaneously. The crew can choose between plain or cipher
-mode of operation. In the cipher mode operation the KY-28 converts voice inputs
-through the microphone into crypto transmissions and deciphers crypto replies
-that are being received to the crews headsets. In the plain mode operation the
-UHF functions as a conventional voice transceiver.
+| Control/Indicator                  | Function                                   |
+| ---------------------------------- | ------------------------------------------ |
+| **ZEROIZE switch**                 | By lifting the guard the preloaded codes are erased and must be loaded on the ground before the cipher mode can be used again.<br>In DCS this is done via the ground crew communications menu. |
+| **Power-mode switch**              | P/OFF - UHF radio is used as a plain-language transceiver. Removes power from the system.<br>C - Used to transmit and receive in secure mode (cipher) using preloaded codes. Also applies power to the system. To preload codes the system must be in this mode and power be applied.<br>DELAY - Provides a time delay between PTT and actual transmission. |
+| **Radio-select switch**            | RELAY - Re-transmits information acting as a relay for other stations, increasing their range. (Not functional in DCS)<br>RAD-2 - Selects V/UHF 2 for secure voice.<br>RAD-1 - Selects UHF 1 for secure voice. |
 
-## KY-28 Controls and Indicators
+## KY-28 Operation
 
-![KY28Mode](../../img/pilot_ky_28.jpg)
+**Prelaunch:**
+1. Determine that the proper code has been set by personnel qualified in voice security equipment. In DCS and in combination with SRS (Simple Radio) this is done through the ground crew communication menu in the DCS communications menu.
+2. VHF/UHF radios - ON.
+3. Power mode switch - C.
+4. Radio selector - RAD-1 or RAD-2.
+5. If a ground test of equipment is desired, establish two-way, plain-text radio communications on the plain-voice radio with a suitable remote station and request an equipment check. (In DCS another player is needed)
+6. After a 2-minute warmup period, on the cipher-selected radio listen for a steady, unbroken tone in the headset followed by a double-pitched broken tone.
+7. Key the appropriate radio selected for transmission, hold for approximately 2 seconds, and release. The double-pitched broken tone will cease and no sound will be heard.
+8. Key radio and hold. A single-beep tone will be heard in approximately 1-1/2 seconds. When this tone is heard, the equipment is ready to cipher transmission.
+9. After the beep tone is heard, establish two-way cipher radio communications with a cooperating ground station and check for readability and signal strength.
+10. Set power mode and radio selector switches in accordance with the tactical situation.
 
-The KY-28 is controlled by the KY-28 control panel and respectively the
-conventional UHF or Intercom controls. Both front and rear cockpit instrument
-panels display mode lights for either mode. If the mode light P is illuminated (<num>1</num>)
-the KY-28 and UHF/Intercom is operated in plain mode. If the mode light C is
-illuminated (<num>2</num>) the KY-28 and UHF/intercom is operated in the cipher mode.
+**Note:** The above procedures may be used to perform an in-flight check of the equipment.
 
-## KY-28 Control Panel
+**Postlaunch:**
+- The speech security equipment shall be operated as briefed.
 
-![wso_ky_28](../../img/wso_ky_28_control_panel.jpg)
+**Note:** If ZEROIZE is pressed during flight, ciphered communication is not possible. The code can only be reset (or changed) through the ground crew communications menu after landing.
 
-The KY-28 control panel is in the rear cockpit. It has a power knob, a mode switch and a code
-zeroize button. The power knob (<num>3</num>) provides power to the KY-28 and can be set to either
-OFF, ON or
-RLY (relay). The KY-28 is not powered in the OFF position. It is powered in the ON and RLY
-positions. If a direct communication between KY units is desired, the ON position is to be selected.
+**After Landing:**
+- ZEROIZE switch - ZEROIZE (as briefed).
+- Power switch - OFF.
 
-> 💡 RLY would provide the ability to use the KY-28 as a retransmission facility,
-> which is not modeled in DCS.
-
-The mode switch (<num>2</num>) can be set to either P (plain) or C (cipher)
-operating modes. To change modes the switch has to be pulled outwards. If the
-KY-28 is powered and the mode switch is set to the C position, the UHF
-transmitter is automatically selected for front cockpit transmissions. Pressing
-the zeroize button neutralizes the preset code in the KY-28. The zeroize button (<num>1</num>)
-is guarded and should only be used in emergencies or after aircraft shutdown if
-required. As the code can only be set on the ground, pressing the zeroize button
-during flight makes the cipher mode inoperable for the crew for the remainder of
-the flight.
-
-> 💡 To permit conventional UHF communications the mode must be set to P
-> (plain) even if the KY-28 power knob is in the OFF position. If the mode is set
-> to C (cipher), conventional UHF communication is inhibited in both the front and
-> rear cockpit. An exception to this is transmission and reception on guard or aux
-> receivers, as these are not affected by the cipher mode.
-
-## KY-28 Modes of Operation
-
-All transmitted and received signals are routed through the KY-28 unit. When the
-KY-28 mode is set to P (plain), the UHF transceiver operates in the conventional
-voice manner, whether the KY-28 is powered or not.
-
-To operate the UHF transceiver in the KY-28s C (cipher) mode, the KY-28 has to
-be powered. When operating in the cipher mode, the KY-28 unit functions in
-either standby, receive, or transmit.
-
-All KY-28 units remain in the STANDBY condition until either the microphone
-button is actuated or a sync preamble is received. Once transmission or
-reception of the crypto message has been completed the KY-28 automatically
-reverts to the standby condition. While the KY-28 is in the standby condition
-the radio equipment also functions as a traditional receiver as all incoming
-non-crypto transmissions are passed directly to the headsets.
-
-The unit switches to the cipher RECEIVE condition whenever a sync preamble is
-received. The sync preamble is generated by other KY-8, KY-28 or KY-38 units
-when the transmitting stations operator actuates the microphone switch. The sync
-preamble ensures that all units in the network are in the cipher receive
-condition. The enciphered message is received immediately after the sync
-preamble signal and the message is decoded by the KY-28 and passed to the
-aircrew headsets in the form of plain language.
-
-When the UHF microphone switch is set to the UHF position, the KY-28 switches to
-the TRANSMIT condition. The sync preamble signal is transmitted to all receiving
-KY stations to switch to the cipher receive condition. After actuating the
-microphone switch, a brief tone is heard in the aircrew headsets. The tone
-signal indicates that the sync preamble signal has been completed and
-transmitted, after which the KY-28 is ready to transmit the crews voice input.
-When the mic button is released again, the KY-28 reverts to the standby
-condition. The WSO must select UHF communications with the radio selector switch
-to transmit ciphered messages. The UHF transmitter is automatically selected for
-front cockpit transmissions if the KY-28 is operated in mode C.
-
-> 💡 With the C (cipher) mode selected, the transmit condition overrides the
-> cipher receive condition. Hence during cipher receive operation the UHF
-> microphone switch should not be actuated until the incoming message has been
-> completed.
-
-For operations procedure see [Chapter KY-28 Operations](../../procedures/ky_28_operations.md).
+**Note:** If ZEROIZE has been pressed and the POWER MODE switch is in C, both crewmembers will be warned by a continuing beeping sound.

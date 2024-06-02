@@ -1,25 +1,20 @@
 # Pilot Cockpit Overview
 
-The pilot cockpit is divided into a front section, containing all instruments
-and weapon controls, as well as the radar screen; the left console area with
-engine, control surfaces and navigation related settings; the pedestal group
-holding auxiliary information; and the right console area with communication and
-lighting controls.
-
 ## Layout
 
-![pilot_overview](../../img/pilot_overview_coloured.jpg)
+![pilot_cockpit](../../img/pilotcockpit.png)
 
-| Section | Name                                              |
-| ------: |---------------------------------------------------|
-|      1. | [DSCG Controls](dscg_controls.md)                 |
-|      2. | [Overhead Indicators](overhead_indicators.md)     |
-|      3. | [Weapon Management](weapon_management.md)         |
-|      4. | [Flight Director Group](flight_director_group.md) |
-|      5. | [Right Main Panel](right_main_panel.md)           |
-|      6. | [Left Sub-Panel](left_sub_panel.md)               |
-|      7. | [Left Console](left_console/overview.md)          |
-|      8. | [Pedestal Group](pedestal_group.md)               |
-|      9. | [Right Sub-Panel](right_sub_panel.md)             |
-|     10. | [Right Console](right_console/overview.md)        |
-|     11. | [Stick and Seat](stick_seat.md)                   |
+| Section | Name                                 |
+| --------------:| -------------------------------------------- |
+| 1.             | [Left Side Console](left_console.md)|
+| 2.             | [Left Vertical Console](left_vertical_console.md) |
+| 3.             | [Left Knee Panel](left_knee_panel.md)        |
+| 4.             | [Left Instrument Panel](left_instrument_panel.md) |
+| 5.             | [Left Windshield Frame](left_windshield_frame.md)|
+| 6.             | [Center Panel](center_panel.md)              |
+| 7.             | [Right Windshield Frame](right_windshield_frame.md) |
+| 8.             | [Right Instrument Panel](right_instrument_panel.md) |
+| 9.             | [Right Knee Panel](right_knee_panel.md)      |
+| 10.            | [Right Vertical Console](right_vertical_console.md) |
+| 11             | [Right Side Console](right_console.md) |
+| 12.            | [Canopy Control Handle](canopy_control_handle.md) |

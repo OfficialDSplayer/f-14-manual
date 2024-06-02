@@ -1,5 +1,7 @@
 # VOR/ILS System
 
+> 🚧 This section is under construction and is taken from the F-4E manual!
+
 ![ext_vor_ils_beacon](../../img/ext_vor_ils_beacon.jpg)
 
 The VHF omnidirectional range instrument landing system, or VOR/ILS, provides

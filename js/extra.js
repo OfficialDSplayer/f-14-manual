@@ -27,7 +27,7 @@ $("div.menu-logo img, h1.menu-title").on("click", function (e) {
 function ensureLogoVisible() {
   var logo = "img/f4line_black.svg";
   if ($("html").hasClass("hb_dark")) {
-    logo = "img/f4line.svg";
+    logo = "img/f14line.svg";
   }
   $("img.line_art_logo").attr("src", logo);
 }

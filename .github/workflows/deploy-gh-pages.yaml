@@ -31,4 +31,3 @@ jobs:
           personal_token: ${{ secrets.GH_PAGES_DEPLOY_BOT_PAT }}
           publish_dir: ./book/html
           publish_branch: html
-          cname: f4.manuals.heatblur.se
